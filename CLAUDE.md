@@ -1,4 +1,4 @@
-# CLAUDE.md — Narutodle
+# CLAUDE.md — Ninjoku
 
 ## Project Overview
 
@@ -189,7 +189,7 @@ Keys to store:
 ## Project Structure (planned)
 
 ```
-Narutodle/
+Ninjoku/
 ├── narutodle.pen          # Pencil design file
 ├── CLAUDE.md
 ├── public/
