@@ -18,6 +18,12 @@ function getLocalStats(): { played: number; avgGuesses: string } {
   }
 }
 
+// Prefetch game assets when user shows intent to navigate (hover/focus on CTA)
+function prefetchGameAssets() {
+  void import('./ModeSelect');
+  void import('./ClassicPage');
+}
+
 export function Home() {
   const navigate = useNavigate();
   const day = getDayNumber();
@@ -60,6 +66,8 @@ export function Home() {
       >
         <button
           onClick={() => navigate('/play')}
+          onMouseEnter={prefetchGameAssets}
+          onFocus={prefetchGameAssets}
           className="w-full py-4 bg-accent text-white font-display font-semibold text-lg tracking-widest rounded-lg hover:bg-accent/90 hover:scale-[1.02] transition-all active:scale-95"
         >
           PLAY TODAY'S CHALLENGE

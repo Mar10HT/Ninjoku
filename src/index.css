@@ -1,11 +1,11 @@
 @import "tailwindcss";
-@import "@fontsource/teko/400.css";
-@import "@fontsource/teko/500.css";
-@import "@fontsource/teko/600.css";
-@import "@fontsource/teko/700.css";
-@import "@fontsource/jetbrains-mono/400.css";
-@import "@fontsource/jetbrains-mono/500.css";
-@import "@fontsource/jetbrains-mono/600.css";
+/* Latin-only subsets: eliminates ~300KB of unused Devanagari font files */
+@import "@fontsource/teko/latin-400.css";
+@import "@fontsource/teko/latin-600.css";
+@import "@fontsource/teko/latin-700.css";
+/* 400 (body) + 700 (font-bold) — 500/600 were unused, 700 was missing */
+@import "@fontsource/jetbrains-mono/latin-400.css";
+@import "@fontsource/jetbrains-mono/latin-700.css";
 
 @theme {
   --font-display: "Teko", sans-serif;

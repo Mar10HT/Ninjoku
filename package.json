@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.2.8",
-    "@fontsource/philosopher": "^5.2.8",
     "@fontsource/teko": "^5.2.7",
     "@tailwindcss/vite": "^4.2.1",
     "react": "^19.2.4",
