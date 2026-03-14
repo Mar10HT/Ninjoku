@@ -1,1 +1,91 @@
 @import "tailwindcss";
+@import "@fontsource/teko/400.css";
+@import "@fontsource/teko/500.css";
+@import "@fontsource/teko/600.css";
+@import "@fontsource/teko/700.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/jetbrains-mono/600.css";
+
+@theme {
+  --font-display: "Teko", sans-serif;
+  --font-body: "Teko", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg: #FBF4E3;
+  --color-surface: #FFFCF5;
+  --color-ink: #1A1209;
+  --color-muted: #6B5B45;
+  --color-border: #C8B89A;
+  --color-accent: #E85D04;
+  --color-forest: #2D6A55;
+  --color-match: #2D6A55;
+  --color-partial: #B45309;
+  --color-miss: #B91C1C;
+
+  /* Custom animations */
+  --animate-flip-in-y: flip-in-y 0.35s cubic-bezier(0.25, 1, 0.5, 1) both;
+  --animate-pop-in: pop-in 0.3s cubic-bezier(0.25, 1, 0.5, 1) both;
+  --animate-shake: shake 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+  --animate-fade-slide-down: fade-slide-down 0.18s cubic-bezier(0.25, 1, 0.5, 1) both;
+  --animate-fade-in: fade-in 0.25s cubic-bezier(0.25, 1, 0.5, 1) both;
+  --animate-score-pop: score-pop 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@keyframes flip-in-y {
+  from {
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes pop-in {
+  0%   { transform: scale(0.75); opacity: 0; }
+  70%  { transform: scale(1.06); }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-5px); }
+  40%       { transform: translateX(5px); }
+  60%       { transform: translateX(-3px); }
+  80%       { transform: translateX(3px); }
+}
+
+@keyframes fade-slide-down {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes score-pop {
+  0%   { transform: scale(1); }
+  45%  { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    font-family: "Teko", sans-serif;
+  }
+}

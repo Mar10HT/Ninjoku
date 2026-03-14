@@ -1,0 +1,7756 @@
+[
+  {
+    "id": 1344,
+    "name": "Naruto Uzumaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png",
+    "affiliation": [
+      "Konohagakure",
+      "Mount Myōboku",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Uzumaki",
+    "rank": "Genin",
+    "natureType": [
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Lava Release",
+      "Magnet Release",
+      "Boil Release",
+      "Yin Release",
+      "Yang Release",
+      "Yin–Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Lava Release",
+      "Magnet Release",
+      "Boil Release"
+    ],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1307,
+    "name": "Sasuke Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png",
+    "affiliation": [
+      "Konohagakure",
+      "Otogakure",
+      "Ryūchi Cave",
+      "Akatsuki"
+    ],
+    "clan": "Uchiha",
+    "rank": "Genin",
+    "natureType": [
+      "Lightning Release",
+      "Fire Release",
+      "Wind Release",
+      "Earth Release",
+      "Water Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Eternal Mangekyō Sharingan",
+      "Rinnegan"
+    ],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 376,
+    "name": "Kakashi Hatake",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hatake",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Wind Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyō Sharingan"
+    ],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 928,
+    "name": "Orochimaru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/14/Orochimaru_Infobox.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root",
+      "Akatsuki",
+      "Otogakure",
+      "Ryūchi Cave"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Wood Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Jūgo's Clan's Kekkei Genkai",
+      "Sakon and Ukon's Kekkei Genkai",
+      "Shikotsumyaku",
+      "Wood Release"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Various",
+    "status": "Alive"
+  },
+  {
+    "id": 1303,
+    "name": "Obito Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4a/Obito_Uchiha.png",
+    "affiliation": [
+      "Konohagakure",
+      "Akatsuki",
+      "Kirigakure"
+    ],
+    "clan": "Uchiha",
+    "rank": "Chūnin",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Wood Release",
+      "Yin Release",
+      "Yang Release",
+      "Yin–Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyō Sharingan",
+      "Rinnegan",
+      "Wood Release"
+    ],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 259,
+    "name": "Gaara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/20/Gaara_in_Part_I.png",
+    "affiliation": [
+      "Sunagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Kazekage",
+    "rank": "Kage",
+    "natureType": [
+      "Magnet Release",
+      "Wind Release",
+      "Earth Release",
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [
+      "Magnet Release"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1359,
+    "name": "Kabuto Yakushi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c9/Kabuto_Part_1.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root",
+      "Konoha Orphanage",
+      "Otogakure",
+      "Ryūchi Cave",
+      "Akatsuki"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release",
+      "Water Release",
+      "Wind Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Jūgo's Clan's Kekkei Genkai",
+      "Sakon and Ukon's Kekkei Genkai",
+      "Shikotsumyaku"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 515,
+    "name": "Jiraiya",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/21/Profile_Jiraiya.png",
+    "affiliation": [
+      "Konohagakure",
+      "Mount Myōboku"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Earth Release",
+      "Water Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1373,
+    "name": "Yamato",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f7/Yamato_newshot.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Wood Release",
+      "Earth Release",
+      "Water Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Wood Release"
+    ],
+    "arcOfDebut": "Tenchi Bridge Reconnaissance Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 344,
+    "name": "Might Guy",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/31/Might_Guy.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release",
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1037,
+    "name": "Konohamaru Sarutobi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/89/Konohamaru_p1.png",
+    "affiliation": [
+      "Konohagakure",
+      "Mount Myōboku"
+    ],
+    "clan": "Sarutobi",
+    "rank": "Genin",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 813,
+    "name": "Mitsuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5c/Mitsuki.png",
+    "affiliation": [
+      "Otogakure",
+      "Ryūchi Cave",
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Wind Release",
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [
+      "Jūgo's Clan's Kekkei Genkai"
+    ],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 865,
+    "name": "Minato Namikaze",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/71/Minato_Namikaze.png",
+    "affiliation": [
+      "Konohagakure",
+      "Mount Myōboku",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1339,
+    "name": "Boruto Uzumaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/de/Boruto_Infobox.png",
+    "affiliation": [
+      "Konohagakure",
+      "Ryūchi Cave"
+    ],
+    "clan": "Uzumaki",
+    "rank": "Genin",
+    "natureType": [
+      "Lightning Release",
+      "Wind Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [
+      "Jōgan"
+    ],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1293,
+    "name": "Itachi Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bb/Itachi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Akatsuki"
+    ],
+    "clan": "Uchiha",
+    "rank": "Anbu",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Water Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyō Sharingan"
+    ],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1063,
+    "name": "Hashirama Senju",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7e/Hashirama_Senju.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Senju",
+    "rank": "Kage",
+    "natureType": [
+      "Wood Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Wood Release"
+    ],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1280,
+    "name": "Tsunade",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b3/Tsunade_infobox2.png",
+    "affiliation": [
+      "Konohagakure",
+      "Shikkotsu Forest",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Senju",
+    "rank": "Kage",
+    "natureType": [
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 739,
+    "name": "Rock Lee",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/97/Rock_Lee_Part_I.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Lee",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1306,
+    "name": "Sarada Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9a/Sarada_Infobox.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uchiha",
+    "rank": "Chūnin",
+    "natureType": [
+      "Lightning Release",
+      "Fire Release",
+      "Wind Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan"
+    ],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 374,
+    "name": "Sakura Haruno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/64/Sakura_Part_1.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces",
+      "Shikkotsu Forest"
+    ],
+    "clan": "Uchiha",
+    "rank": "Chūnin",
+    "natureType": [
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 1036,
+    "name": "Hiruzen Sarutobi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e4/Hiruzen_Sarutobi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Sarutobi",
+    "rank": "Kage",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1066,
+    "name": "Tobirama Senju",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/be/Tobirama_Senju.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Senju",
+    "rank": "Kage",
+    "natureType": [
+      "Water Release",
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1100,
+    "name": "Shinki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/78/Shinki.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "Kazekage",
+    "rank": "Chūnin",
+    "natureType": [
+      "Magnet Release",
+      "Wind Release",
+      "Earth Release",
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [
+      "Magnet Release"
+    ],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 13,
+    "name": "Shino Aburame",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9c/Shino.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Aburame",
+    "rank": "Chūnin",
+    "natureType": [
+      "Earth Release",
+      "Fire Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1216,
+    "name": "Tenten",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/da/Tenten_Part_1.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 40,
+    "name": "Chōji Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7d/Ch%C5%8Dji_Akimichi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Akimichi",
+    "rank": "Chūnin",
+    "natureType": [
+      "Earth Release",
+      "Fire Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 437,
+    "name": "Hinata Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/97/Hinata.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hyūga",
+    "rank": "Chūnin",
+    "natureType": [
+      "Fire Release",
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 1365,
+    "name": "Ino Yamanaka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/dd/Ino.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Yamanaka",
+    "rank": "Chūnin",
+    "natureType": [
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 6,
+    "name": "A (Fourth Raikage)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4c/Fourth_Raikage_2.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [
+      "Lightning Release",
+      "Earth Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 466,
+    "name": "Kiba Inuzuka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/03/Kiba.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Inuzuka",
+    "rank": "Chūnin",
+    "natureType": [
+      "Earth Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1208,
+    "name": "Temari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bb/Temari_newshot.png",
+    "affiliation": [
+      "Sunagakure",
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Jōnin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 1400,
+    "name": "Iwabee Yuino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0b/Iwabee_Yuino.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 878,
+    "name": "Shikamaru Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/44/Shikamaru_Part_I.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Chūnin",
+    "natureType": [
+      "Fire Release",
+      "Earth Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 104,
+    "name": "Azure Fang",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/98/Azure_Fang.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1051,
+    "name": "Scarlet Blaze",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/eb/Scarlet_Blaze.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [
+      "Fire Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1368,
+    "name": "Inojin Yamanaka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e6/Inojin_movie.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Yamanaka",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 577,
+    "name": "Kankurō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7d/Kankur%C5%8D1.png",
+    "affiliation": [
+      "Sunagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Kazekage",
+    "rank": "Jōnin",
+    "natureType": [
+      "Wind Release",
+      "Lightning Release",
+      "Earth Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1008,
+    "name": "Sai",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/07/Sai_Infobox.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Yamanaka",
+    "rank": "Anbu",
+    "natureType": [
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 162,
+    "name": "Crimson Fist",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7d/Crimson_Fist.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [
+      "Wood Release",
+      "Earth Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [
+      "Wood Release"
+    ],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 876,
+    "name": "Shikadai Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3d/Shikadai_Nara.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Nara",
+    "rank": "Chūnin",
+    "natureType": [
+      "Wind Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 791,
+    "name": "Midnight Blade",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bf/Midnight_Blade.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 725,
+    "name": "Kurotsuchi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/29/Kurotsuchi_Part_II.png",
+    "affiliation": [
+      "Iwagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Kamizuru",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lava Release",
+      "Fire Release",
+      "Earth Release",
+      "Water Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [
+      "Lava Release"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 809,
+    "name": "Anko Mitarashi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bd/Anko_Part_I.png",
+    "affiliation": [
+      "Konohagakure",
+      "Ryūchi Cave",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [
+      "Fire Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 920,
+    "name": "Omoi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9f/Omoi_Part_II.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 609,
+    "name": "Kawaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ef/Kawaki_infobox.png",
+    "affiliation": [
+      "Kara",
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [
+      "Isshiki's Dōjutsu"
+    ],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 831,
+    "name": "Zabuza Momochi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/37/Zabuza_Momochi.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1143,
+    "name": "Suien",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/65/Suien.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1367,
+    "name": "Inoichi Yamanaka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d2/Inoichi_Yamanaka.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Yamanaka",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 190,
+    "name": "Darui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/45/Darui.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Storm Release",
+      "Lightning Release",
+      "Water Release",
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [
+      "Storm Release"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1122,
+    "name": "Shizune",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0a/Shizune_Infobox.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 42,
+    "name": "Chōza Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a8/Ch%C5%8Dza_Akimichi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Akimichi",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 127,
+    "name": "Breeze Dancer",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b1/Storm_Dancer.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 274,
+    "name": "Kiseru Gankubi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1f/Kiseru_Gankubi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Kara"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 724,
+    "name": "Raiga Kurosuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/41/Raiga_Kurosuki.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lightning Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 765,
+    "name": "Kosuke Maruboshi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/2c/Ninja_Kosuke.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release",
+      "Earth Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1034,
+    "name": "Asuma Sarutobi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7c/Asuma.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Sarutobi",
+    "rank": "Jōnin",
+    "natureType": [
+      "Wind Release",
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 152,
+    "name": "Chōjūrō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d8/Chojuro_2.png",
+    "affiliation": [
+      "Kirigakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 593,
+    "name": "Karin",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/72/Karin3.png",
+    "affiliation": [
+      "Kusagakure",
+      "Otogakure",
+      "Akatsuki"
+    ],
+    "clan": "Uzumaki",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release",
+      "Water Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 531,
+    "name": "Kagerō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/26/Kagero.png",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "clan": "Fūma",
+    "rank": "Jōnin",
+    "natureType": [
+      "Earth Release",
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 591,
+    "name": "Yagura Karatachi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e0/Yagura.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "Karatachi Family",
+    "rank": "Kage",
+    "natureType": [
+      "Water Release",
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 720,
+    "name": "Hako Kuroi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9e/Hako.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 818,
+    "name": "Mizuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9c/Mizuki.png",
+    "affiliation": [
+      "Konohagakure",
+      "Otogakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Earth Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1038,
+    "name": "Mirai Sarutobi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7a/Mirai_Sarutobi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Sarutobi",
+    "rank": "Chūnin",
+    "natureType": [
+      "Wind Release",
+      "Fire Release",
+      "Lightning Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 1310,
+    "name": "Shisui Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4c/Shisui_Uchiha.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uchiha",
+    "rank": "Anbu",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyō Sharingan"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 5,
+    "name": "A (Third Raikage)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f5/Raikage3.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [
+      "Lightning Release",
+      "Earth Release",
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 15,
+    "name": "Torune Aburame",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/35/Torune_Anime.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "Aburame",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 568,
+    "name": "Denki Kaminarimon",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a3/Denki_Kaminarimon.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 718,
+    "name": "Kurobane",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/90/Kurobane.png",
+    "affiliation": [
+      "File:Land of Calm Seas Symbol.svg Land of Calm Seas"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Water Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 844,
+    "name": "Mū",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d5/M%C5%AB.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [
+      "Dust Release",
+      "Earth Release",
+      "Water Release",
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 845,
+    "name": "Mubi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/43/Mubi2.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release",
+      "Yin Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 847,
+    "name": "Mui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4b/Mui_Blood_Prison.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 975,
+    "name": "Ameyuri Ringo",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0e/Ameyuri.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1082,
+    "name": "Shibuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/ce/Shibuki.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1144,
+    "name": "Suika",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a3/Suika_infobox.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1337,
+    "name": "Yūgao Uzuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f3/Y%C5%ABgao_Uzuki.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 80,
+    "name": "Ao",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/72/Ao.png",
+    "affiliation": [
+      "Kirigakure",
+      "Allied Shinobi Forces",
+      "Kara"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 62,
+    "name": "Ameno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/18/Ameno_Infobox.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 199,
+    "name": "Dodai",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/92/Dodai_HDshot.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lava Release",
+      "Fire Release",
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [
+      "Lava Release"
+    ],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 293,
+    "name": "Hayate Gekkō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3a/Hayate_Gekk%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 328,
+    "name": "Dōshu Goetsu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/14/Doshu.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 668,
+    "name": "Renga Kokubō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/85/Renga_Kokub%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 967,
+    "name": "Rasa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/24/Yondaime_Kazekage.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "Kazekage",
+    "rank": "Kage",
+    "natureType": [
+      "Magnet Release",
+      "Wind Release",
+      "Earth Release",
+      "Water Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [
+      "Magnet Release"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1048,
+    "name": "Saya",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/ce/Saya.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1115,
+    "name": "Shishio",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e6/Shishio.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1166,
+    "name": "Namida Suzumeno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1d/Namida.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1179,
+    "name": "Hōki Taketori",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bf/Houki_Taketori.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1342,
+    "name": "Menma Uzumaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/85/Menma_Uzumaki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uzumaki",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1364,
+    "name": "Fū Yamanaka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/95/Fu_1.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "Yamanaka",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1427,
+    "name": "Zō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/22/Z%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Lightning Release",
+      "Fire Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 835,
+    "name": "Ibiki Morino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4b/Ibiki_Part_I.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1325,
+    "name": "Iruka Umino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bc/Iruka.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Fire Release",
+      "Water Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 46,
+    "name": "Shitō Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/04/Shit%C5%8D_Akimichi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Akimichi",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 133,
+    "name": "Burami",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c8/Burami.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 157,
+    "name": "Chūkichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/19/Ch%C5%ABkichi_mugshot.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 206,
+    "name": "Dōshin",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/da/Doshin.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Earth Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 348,
+    "name": "Kotetsu Hagane",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/81/Kotetsu_Hagane.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 429,
+    "name": "Mangetsu Hōzuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/ce/Hozuki_Mangetsu.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "Hōzuki",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 468,
+    "name": "Tsume Inuzuka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f6/Tsume_Inuzuka.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Inuzuka",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 483,
+    "name": "Tsuru Itoi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/cb/Tsuru.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 571,
+    "name": "Izumo Kamizuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5d/Izumo_Kamizuki.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 621,
+    "name": "Third Kazekage",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4e/Third_Kazekage_Reincarnated.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [
+      "Magnet Release",
+      "Wind Release",
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [
+      "Magnet Release"
+    ],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 674,
+    "name": "Komachi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/35/Komachi.jpg",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 716,
+    "name": "Kushimaru Kuriarare",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4b/Kushimaru_Kuriarare.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 754,
+    "name": "Maki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/21/Maki.png",
+    "affiliation": [
+      "Sunagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 846,
+    "name": "Mugino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/19/Mugino.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 857,
+    "name": "Muyami",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/66/Muyami_Infobox.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 873,
+    "name": "Ensui Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/da/Ensui_Nara_Anime.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 923,
+    "name": "Enko Onikuma",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/27/Enko_Onikuma.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Onikuma",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1022,
+    "name": "Sana",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/11/Sana.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1145,
+    "name": "Fuguki Suikazan",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a7/Fuguki.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1147,
+    "name": "Suiren",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5b/Suiren_Genin.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1260,
+    "name": "Towa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/ae/Towa.jpg",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1382,
+    "name": "Yome",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/2a/Yome.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 435,
+    "name": "Hanabi Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/da/Hanabi_Hyuga.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Hyūga",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 436,
+    "name": "Hiashi Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ee/Hiashi_Hyuga.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hyūga",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 444,
+    "name": "Neji Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7e/Neji_Part_I.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hyūga",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release",
+      "Earth Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1223,
+    "name": "Mei Terumī",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/6f/Mei.png",
+    "affiliation": [
+      "Kirigakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [
+      "Lava Release",
+      "Boil Release",
+      "Water Release",
+      "Fire Release",
+      "Lightning Release",
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [
+      "Lava Release",
+      "Boil Release"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 1397,
+    "name": "Kurenai Yūhi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/67/Kurenai_Part_I.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Sarutobi",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 10,
+    "name": "Muta Aburame",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1f/Aburame_Muta.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Aburame",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 113,
+    "name": "Bandō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/02/Band%C5%8D.png",
+    "affiliation": [
+      "Benisu Island"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 122,
+    "name": "Jūzō Biwa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c2/J%C5%ABz%C5%8D_Biwa.png",
+    "affiliation": [
+      "Kirigakure",
+      "Akatsuki"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 257,
+    "name": "Fuyō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0e/Fuyou.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 347,
+    "name": "Tsurushi Hachiya",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9d/Hachiya.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Genin Mission Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 418,
+    "name": "Hokuto",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/94/Hokuto_newshot.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 439,
+    "name": "Hizashi Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/15/Young_Hizashi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Hyūga",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 465,
+    "name": "Hana Inuzuka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/97/Hana_Inuzuka.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Inuzuka",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 485,
+    "name": "Ittan",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ea/Ittan_Anime.png",
+    "affiliation": [
+      "Iwagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 488,
+    "name": "Iwa Kunoichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/00/Iwagakure_Kunoichi.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 522,
+    "name": "Jujumaru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/6b/Jujumaru.png",
+    "affiliation": [
+      "File:Land of Calm Seas Symbol.svg Land of Calm Seas"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 555,
+    "name": "Kakui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a8/Kakui.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 552,
+    "name": "Kakkō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d8/Kakko.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Earth Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 590,
+    "name": "Kagura Karatachi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4a/Kagura_Karatachi.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "Karatachi Family",
+    "rank": "Chūnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Genin Mission Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 753,
+    "name": "Mahiru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a3/Mahiru_Infobox.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 758,
+    "name": "Mamushi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/33/Mamushi.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 766,
+    "name": "Marui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/2e/Marui.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 853,
+    "name": "Jinpachi Munashi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4c/Jinpachi_Munashi.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 903,
+    "name": "Rin Nohara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bc/Rin_Nohara.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Fire Release",
+      "Water Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 977,
+    "name": "Rō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/24/R%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 981,
+    "name": "Aoi Rokushō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f2/Aoi_Rokusho.png",
+    "affiliation": [
+      "Konohagakure",
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 997,
+    "name": "Ryūzetsu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3c/Ry%C5%ABzetsu2.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [
+      "Ryūzetsu's Kekkei Genkai"
+    ],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1255,
+    "name": "Toroi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/cc/Toroi_HDShot.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Magnet Release",
+      "Wind Release",
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [
+      "Magnet Release"
+    ],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1289,
+    "name": "Fugaku Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f2/Fugaku.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uchiha",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyō Sharingan"
+    ],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1330,
+    "name": "Uō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b4/U%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sarada Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1370,
+    "name": "Santa Yamanaka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/cd/Santa_Yamanaka.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Yamanaka",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1374,
+    "name": "Kokage Yanagikage",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1c/Kokage_Yanagikage.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 35,
+    "name": "Akatsuchi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/16/Akatsuchi_Part_II.png",
+    "affiliation": [
+      "Iwagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 477,
+    "name": "Udon Ise",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/76/Udon_p1.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 596,
+    "name": "Karui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c3/Karui.png",
+    "affiliation": [
+      "Kumogakure",
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Akimichi",
+    "rank": "Chūnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 618,
+    "name": "Moegi Kazamatsuri",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b7/Moegi_p1.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Wood Release",
+      "Earth Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [
+      "Wood Release"
+    ],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 774,
+    "name": "Matsuri",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/43/Matsuri_p1.png",
+    "affiliation": [
+      "Sunagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 925,
+    "name": "Ōnoki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/67/%C5%8Cnoki.png",
+    "affiliation": [
+      "Iwagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Kamizuru",
+    "rank": "Kage",
+    "natureType": [
+      "Dust Release",
+      "Lava Release",
+      "Earth Release",
+      "Fire Release",
+      "Wind Release",
+      "Lightning Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [
+      "Lava Release"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 9,
+    "name": "Harika Aburame",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4e/Harika_Aburame.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Aburame",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 11,
+    "name": "Shibi Aburame",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b3/Shibi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Aburame",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 14,
+    "name": "Tatsuma Aburame",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bb/Tatsuma_Aburame.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "Aburame",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Climax",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 24,
+    "name": "Ajisai",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/40/Ajisai.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 27,
+    "name": "Yoroi Akadō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/40/Yoroi_Akad%C5%8D.png",
+    "affiliation": [
+      "Konohagakure",
+      "Otogakure",
+      "Land of the Sea"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 28,
+    "name": "Akahoshi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a3/Akahoshi_newshot.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 36,
+    "name": "Jinin Akebino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/25/Jinin.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 39,
+    "name": "Chōchō Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/08/Ch%C5%8Dch%C5%8D_Akimichi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Akimichi",
+    "rank": "Genin",
+    "natureType": [
+      "Lightning Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 43,
+    "name": "Dōtō Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/07/D%C5%8Dt%C5%8D_Akimichi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Akimichi",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 44,
+    "name": "Makaro Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4f/Makaro_Akimichi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Akimichi",
+    "rank": "Chūnin",
+    "natureType": [
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 45,
+    "name": "Maruten Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5a/Maruten_Akimichi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Akimichi",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 47,
+    "name": "Torifu Akimichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0a/Torifu_Akimichi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Akimichi",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 88,
+    "name": "Araya",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1e/Araya.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 100,
+    "name": "Atsui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0f/Atsui.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 107,
+    "name": "Baki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/04/Baki_Infobox.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 135,
+    "name": "C",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7a/Shee.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lightning Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 140,
+    "name": "Chen",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ea/Chen%28shinobi%29.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 191,
+    "name": "Datsuji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/65/Datsuji.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 210,
+    "name": "Might Duy",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b7/Might_Duy.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 212,
+    "name": "Ebisu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/77/Ebisu.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 221,
+    "name": "Fū",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f6/Fu.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 226,
+    "name": "Fugi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/87/Fugi%27s_Face.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 282,
+    "name": "Gari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/03/Gari_Anime.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Explosion Release",
+      "Earth Release",
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [
+      "Explosion Release"
+    ],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 329,
+    "name": "Goji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f6/Goji.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 338,
+    "name": "Gōzu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7b/Gozu_profile_pic.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 377,
+    "name": "Sakumo Hatake",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3f/Sakumo_Hatake.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Hatake",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 391,
+    "name": "Shimon Hijiri",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1d/Shimon_hijiri.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 401,
+    "name": "Hinoko",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e2/Hinoko.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 428,
+    "name": "Gengetsu Hōzuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9f/Gengetsu_H%C5%8Dzuki.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "Hōzuki",
+    "rank": "Kage",
+    "natureType": [
+      "Water Release",
+      "Fire Release",
+      "Lightning Release",
+      "Earth Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 432,
+    "name": "Hyō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/99/Hy%C5%8D.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Tenchi Bridge Reconnaissance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 479,
+    "name": "Ishikawa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a1/Ishikawa.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "Kamizuru",
+    "rank": "Kage",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Climax",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 499,
+    "name": "Wasabi Izuno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/49/Wasabi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Izuno",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 427,
+    "name": "Hotarubi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f3/Hotarubi.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 526,
+    "name": "Kagari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0e/Kagari2.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release",
+      "Yin Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 550,
+    "name": "Sumire Kakei",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/12/Sumire_Kakei.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 556,
+    "name": "Magire Kakuremino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/21/Magire.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 624,
+    "name": "Kegon",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/12/Kegon.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 605,
+    "name": "Dan Katō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/13/Dan_HDshot.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release",
+      "Wind Release",
+      "Earth Release",
+      "Yin Release",
+      "Yang Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 610,
+    "name": "Kaito Kawanami",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/92/Kaito.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 619,
+    "name": "Kazami",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7e/Kazami_1.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 646,
+    "name": "Kiri (ninja)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/82/Kiri.png",
+    "affiliation": [
+      "Kirigakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 653,
+    "name": "Kitsuchi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/14/Kitsuchi1.png",
+    "affiliation": [
+      "Iwagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 665,
+    "name": "Kōji (Suna)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e9/K%C5%8Dji.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 738,
+    "name": "Metal Lee",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/93/Metal_Lee.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Lee",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 749,
+    "name": "Mabui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d3/Mabui.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 779,
+    "name": "Meizu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/59/Meizu.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 840,
+    "name": "Motoi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/55/Motoi.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 841,
+    "name": "Mozuku",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/16/Mozuku.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 863,
+    "name": "Raidō Namiashi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d1/Raid%C5%8D_Namiashi_mugshot.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 864,
+    "name": "Menma Namikaze",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/cb/Menma_namikaze.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 871,
+    "name": "Daen Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/76/Daen_Nara.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 874,
+    "name": "Kasuga Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/97/Kasuga_Nara.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Chūnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 875,
+    "name": "Maen Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/08/Maen_Nara.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 877,
+    "name": "Shikaku Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e0/Shikaku_Nara.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 879,
+    "name": "Suzaku Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/67/Suzaku_Nara.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Nara",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 880,
+    "name": "Yoshino Nara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9f/Yoshino_Nara.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Nara",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 884,
+    "name": "Natsuhi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/77/Natsuhi.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 898,
+    "name": "Yugito Nii",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/2f/Yugito.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Akatsuki Suppression Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 901,
+    "name": "Nishi (sensor)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f5/Nishi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 911,
+    "name": "Oboro",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/51/Oboro.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release",
+      "Yin Release",
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 950,
+    "name": "Pakura",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/71/ParukaAnime.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Scorch Release",
+      "Fire Release",
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [
+      "Scorch Release"
+    ],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 973,
+    "name": "Riichi (ninja)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c2/Riichi_%28ninja%29.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1012,
+    "name": "Sajin (Genin)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a0/Sajin.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1017,
+    "name": "Samidare",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/78/Samidare.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1028,
+    "name": "Saō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4d/Sa%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sarada Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1058,
+    "name": "Sekki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/78/Sekki.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1059,
+    "name": "Sen",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/24/Sen_infobox.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1068,
+    "name": "Makinami Senka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/21/Makinami_Senka.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1069,
+    "name": "Sazanami Senka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/03/Sazanami_Senka.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1070,
+    "name": "Takanami Senka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0e/Takanami.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1077,
+    "name": "Shamon",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/12/2ndkazekage.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1083,
+    "name": "Tanuki Shigaraki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a2/Tanuki.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1085,
+    "name": "Shigure",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/dc/Shigure.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1094,
+    "name": "Shin",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/13/Shin_Revived.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Tenchi Bridge Reconnaissance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1098,
+    "name": "Shinga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/dd/Shinga.jpg",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1106,
+    "name": "Shira",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a2/Shira.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1108,
+    "name": "Hayama Shirakumo",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/75/HayamaShirakumo.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Wind Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1110,
+    "name": "Genma Shiranui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/90/Genma_Shiranui.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1149,
+    "name": "Suiu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a4/Suiu.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1154,
+    "name": "Sumaru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/cf/Sumaru_newshot.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1155,
+    "name": "Sumashi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/25/Sumashi.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1173,
+    "name": "Taiseki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/43/Taiseki.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1196,
+    "name": "Iwashi Tatami",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7c/Iwashi_Tatami.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1205,
+    "name": "Team Goji Leader",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/94/Team_Goji_Leader.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Wind Release",
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1232,
+    "name": "Tonbo Tobitake",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/db/Tonbo_Tobitake.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1256,
+    "name": "Toroi (Genin)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d1/Toroi_%28Genin%29.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1282,
+    "name": "Tsurugi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c1/Tsurugi.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1283,
+    "name": "Misumi Tsurugi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c6/Misumi_Tsurugi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Otogakure",
+      "Land of the Sea"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Water Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1340,
+    "name": "Himawari Uzumaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/26/Himawari.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uzumaki",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": "Alive"
+  },
+  {
+    "id": 1361,
+    "name": "Nonō Yakushi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/07/Non%C5%8D.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root",
+      "Konoha Orphanage"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Climax",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1372,
+    "name": "Aoba Yamashiro",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/42/Aoba.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1376,
+    "name": "Yashamaru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ef/YashamaruHD.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1377,
+    "name": "Yodo",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/ff/Yodo.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1386,
+    "name": "Yōrō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/82/Y%C5%8Dr%C5%8D.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1413,
+    "name": "Yurui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/49/Yurui_movie.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1418,
+    "name": "Zaji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3b/Zaji.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 888,
+    "name": "Nejiri",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4d/Nejiri.JPG/revision/latest?cb=20150807090437",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 3,
+    "name": "A (First Raikage)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/70/A.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 4,
+    "name": "A (Second Raikage)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3f/2nd_Raikage.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 7,
+    "name": "Abiru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/72/Abiru_new.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 18,
+    "name": "Agara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/71/Agara.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 26,
+    "name": "Manabu Akado",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bc/Manabu_Akado.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 30,
+    "name": "Iwana Akame",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a6/Iwana_Akame.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 64,
+    "name": "Ami",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/dd/Ami.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 66,
+    "name": "Sōsha Amino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0b/Sosha_Amino.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 70,
+    "name": "Anbu Commander",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9d/Anbu_Commander.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 92,
+    "name": "Neon Asakusa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d7/Neon_Asakusa.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 103,
+    "name": "Shibito Azuma",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/02/Shibito_Azuma.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 105,
+    "name": "Baiu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c8/Baiu.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 109,
+    "name": "Baku (Anbu)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4e/Baku_ANBU.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 118,
+    "name": "Bekkō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f6/Bekko.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 134,
+    "name": "Byakuren",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/27/Byakuren.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 137,
+    "name": "Gyokurō Chabashira",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e4/Gyokur%C5%8D_Chabashira_Anime.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 154,
+    "name": "Chōseki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/2c/Ch%C5%8Dseki.png",
+    "affiliation": [
+      "Iwagakure",
+      "Land of Fire"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 167,
+    "name": "Daichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/07/Daichi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 200,
+    "name": "Dokan",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3d/Dokan.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 213,
+    "name": "Ebizō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/02/Ebiz%C5%8D.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 231,
+    "name": "Fuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f7/Fuki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 238,
+    "name": "Eiki Fūma",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/38/Eiki_F%C5%ABma.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Fūma",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 239,
+    "name": "Kōtarō Fūma",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c0/Kotaro.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Fūma",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 249,
+    "name": "Daikoku Funeno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/75/Daikoku_Funeno.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 251,
+    "name": "Furui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/96/Furui.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 253,
+    "name": "Futaba",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/44/Futaba.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 254,
+    "name": "Tsubute Futaba",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/03/Tsubute.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 276,
+    "name": "Ganryū",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/81/Ganryu.png",
+    "affiliation": [
+      "Kirigakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 277,
+    "name": "Doseki Ganryū",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9a/Doseki_Ganry%C5%AB.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 279,
+    "name": "Gantetsu (Iwagakure)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bd/Gantetsu_Iwa.png",
+    "affiliation": [
+      "Iwagakure",
+      "Land of Fire"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 291,
+    "name": "Gazeru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/ce/Gazeru.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 301,
+    "name": "Gennai",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0c/Gennai3.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Fire Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 332,
+    "name": "Gonbee",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/06/Gonbee.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 337,
+    "name": "Gōza",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e0/Goza.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 360,
+    "name": "Hakui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a7/Hakui.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 364,
+    "name": "Hana (student)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/de/Hana.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 372,
+    "name": "Kizashi Haruno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/62/Kizashi_Haruno2.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 379,
+    "name": "Hayase",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0e/Hayase.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 384,
+    "name": "Heki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/ab/Heki.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 385,
+    "name": "Hibachi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/33/Hibachi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 386,
+    "name": "Hibari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1f/Hibari.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 392,
+    "name": "Hikaru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9c/Hikaru.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 399,
+    "name": "Hinoe",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/13/Hinoe.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 402,
+    "name": "Hinoto",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/80/Hinoto2.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 416,
+    "name": "Hōki (Takigakure)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7c/H%C5%8Dki.png",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 420,
+    "name": "Hōsei",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0a/H%C5%8Dsei.JPG/revision/latest?cb=20150807085240",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 423,
+    "name": "First Hoshikage",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b3/First_Hoshikage.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 424,
+    "name": "Third Hoshikage",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5f/Third_Hoshikage_new.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 440,
+    "name": "Hoheto Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c4/Hoheto.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hyūga",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 441,
+    "name": "Iroha Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/98/Iroha_Hyuga.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hyūga",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 442,
+    "name": "Kō Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5a/K%C5%8D.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hyūga",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 445,
+    "name": "Tokuma Hyūga",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d4/Tokuma_Hy%C5%ABga.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "Hyūga",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 455,
+    "name": "Kamakiri Ikeno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a7/Kamakiri.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 456,
+    "name": "Kande Inabikari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b4/Kande_Inabikari.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 457,
+    "name": "Inaho",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/70/Inaho3.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 459,
+    "name": "Shinko Inari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4b/Shinko.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 460,
+    "name": "Inomatsu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c5/Inomatsu.jpg",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 464,
+    "name": "Gaku Inuzuka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/6a/Gaku_Inuzuka.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Inuzuka",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 467,
+    "name": "Mimi Inuzuka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c8/Mimi_Inuzuka.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Inuzuka",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 472,
+    "name": "Iroha (Genin)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bf/Iroha.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 473,
+    "name": "Isago",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4d/Isago.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 484,
+    "name": "Yuina Itomaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7f/Yuina_Itomaki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 486,
+    "name": "Ittetsu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f0/Ittetsu.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 495,
+    "name": "Tenma Izumo",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f8/Tenma_Izumo.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 501,
+    "name": "J",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/51/J.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 502,
+    "name": "JJ",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bf/J.J.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 513,
+    "name": "Jimei",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/55/Jimei.JPG/revision/latest?cb=20150807085416",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 516,
+    "name": "Jirō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5a/Jiro.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 518,
+    "name": "Sayū Jōge",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/68/Sayu.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 520,
+    "name": "Jōseki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ec/J%C5%8Dseki.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 524,
+    "name": "K",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/99/K.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 528,
+    "name": "Kage (Anbu)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/73/Kage_%28ANBU%29.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Tenchi Bridge Reconnaissance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 530,
+    "name": "Kura Kageno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d0/Kura_Kageno.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 562,
+    "name": "Osuka Kamakura",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a1/Osuka_Kamakura.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 563,
+    "name": "Saisu Kamano",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/41/Saisu_Kamano.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 567,
+    "name": "Jin Kaminari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f2/Jin_Kaminari_Anime.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 575,
+    "name": "Tekuno Kanden",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/49/Tekuno_Kanden.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 581,
+    "name": "Kanoe",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a7/Kanoe.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 582,
+    "name": "Kanoto",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/11/Kanoto.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 599,
+    "name": "Kashike",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5a/Kashike_new.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 601,
+    "name": "Kasumi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/6b/Kasumi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 606,
+    "name": "Gen Katsugi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a6/Gen_Katsugi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 631,
+    "name": "Kiji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/26/Kiji.png",
+    "affiliation": [
+      "Benisu Island"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 642,
+    "name": "Kinoto",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b2/Kinoto2.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 666,
+    "name": "Kōji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a9/K%C5%8Dji2.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 676,
+    "name": "Komaza",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bb/Komaza.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 681,
+    "name": "Komugi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bf/Komugi3.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 694,
+    "name": "Koshō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7e/Kosh%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 695,
+    "name": "Kosuke",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d0/Kosuke.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Climax",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 698,
+    "name": "Kōta",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d7/K%C5%8Dta.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 700,
+    "name": "Kozuchi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/37/Kozuchi.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "Kamizuru",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sarada Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 708,
+    "name": "Head Ninja of Kumogakure",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/2f/Head_Ninja_of_Kumogakure.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Head Ninja",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 712,
+    "name": "Murakumo Kurama",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/be/Murakumo_Kurama.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Kurama",
+    "rank": "Jōnin",
+    "natureType": [
+      "Yin Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 714,
+    "name": "Uroko Kurama",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/44/Uroko_Kurama.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Kurama",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 715,
+    "name": "Yakumo Kurama",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/37/Yakumo_Kurama.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Kurama",
+    "rank": "Academy Student",
+    "natureType": [
+      "<a href=\"/wiki/File:Ido%27s_physical_form.png\" title=\"File:Ido&#39;s physical form.png\"><img alt=\"\" src=\"https://static.wikia.nocookie.net/naruto/images/6/65/Ido%27s_physical_form.png/revision/latest/scale-to-width-down/180?cb=20150121123210\" decoding=\"async\" loading=\"lazy\" width=\"180\" height=\"136\" class=\"thumbimage\" data-image-name=\"Ido&#39;s physical form.png\" data-image-key=\"Ido%27s_physical_form.png\" data-src=\"https://static.wikia.nocookie.net/naruto/images/6/65/Ido%27s_physical_form.png/revision/latest/scale-to-width-down/180?cb=20150121123210\" /></a> Ido's physical form."
+    ],
+    "kekkeiGenkai": [
+      "Kurama Clan's Kekkei Genkai"
+    ],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 727,
+    "name": "Kurozuka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ee/Kurozuka.png",
+    "affiliation": [
+      "Land of Woods"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 746,
+    "name": "Mabo",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4e/Mabo.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 747,
+    "name": "Kisuke Maboroshi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b0/Kisuke.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 775,
+    "name": "Matsuri (Konoha)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/36/Matsurikonoha.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 787,
+    "name": "Shinobu Mibu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b9/Shinobu.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 788,
+    "name": "Mibuna",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/46/Mibuna.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 790,
+    "name": "Midare",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3c/Midare.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 792,
+    "name": "Midori",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/18/Midori_newshot.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 797,
+    "name": "Mijin",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/10/Mijin.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 798,
+    "name": "Tezutsu Mikawa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/59/Tezutsu.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 800,
+    "name": "Mikoshi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/68/Mikoshi.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 801,
+    "name": "Hamaki Mimura",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5d/Hamaki_Mimura2.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 802,
+    "name": "Tomaru Minakura",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/28/Tomaru_Minakura.JPG/revision/latest/scale-to-width-down/100?cb=20150807084519",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 803,
+    "name": "Yūki Minazuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/88/Y%C5%ABki_Minazuki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 804,
+    "name": "Minoichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/7d/Minoichi.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces",
+      "Land of Silence"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 805,
+    "name": "Minoji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/af/Minoji.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 814,
+    "name": "Dango Mitsuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a6/Dango_Mitsuki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 817,
+    "name": "Third Mizukage",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5f/Young_Third_Mizukage.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 819,
+    "name": "Mizunoe",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/28/Mizunoe.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 820,
+    "name": "Mizunoto",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b4/Mizunoto.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 821,
+    "name": "Mizura",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e4/Mizura.png",
+    "affiliation": [
+      "Hoshigakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 825,
+    "name": "Kunugi Mokume",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/ef/Kunugi_Mokume.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 836,
+    "name": "Idate Morino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/8c/Idate_Morino.png",
+    "affiliation": [
+      "Konohagakure",
+      "Land of Tea"
+    ],
+    "clan": "Wasabi Family",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 837,
+    "name": "Morio",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/cb/Morio.png",
+    "affiliation": [
+      "Iwagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 848,
+    "name": "Mujin",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c4/Mujin.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 850,
+    "name": "Mukade",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b3/Mukade.png",
+    "affiliation": [
+      "Sunagakure",
+      "Akatsuki"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 882,
+    "name": "Natori",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c6/Natori.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 886,
+    "name": "Nawaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a5/Nawaki_Infobox.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Senju",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 890,
+    "name": "Buriko Nekoka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/06/Buriko_Nekoka_Anime.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 893,
+    "name": "Konashi Nerikiri",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/85/Konashi_Nerikiri.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 902,
+    "name": "Nobori",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/47/Nobori.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 906,
+    "name": "Ehō Norimaki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d1/Ehou_Norimaki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 915,
+    "name": "Ōkei",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/68/%C5%8Ckei.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 929,
+    "name": "Osoi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/6d/Osoi.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 931,
+    "name": "Otokaze",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/29/Otokaze.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 964,
+    "name": "Ranka",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/da/Ranka1.png",
+    "affiliation": [
+      "Konohagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 968,
+    "name": "Rashii",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4b/Rashii.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 969,
+    "name": "Reki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3d/Reki.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 971,
+    "name": "Reto",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/05/Reto.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Kage",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kaguya Ōtsutsuki Strikes Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 993,
+    "name": "Yatogo Ryūgen",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4f/Yatogo_Ryugen.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Climax",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 995,
+    "name": "Ryūsa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0d/Ryusa.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 996,
+    "name": "Ryūsui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/84/Ryusui.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1002,
+    "name": "Sada",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4b/Sada.png",
+    "affiliation": [
+      "Benisu Island"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1010,
+    "name": "Kobushi Saiki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/dd/Kobushi.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1011,
+    "name": "Sajin",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/19/Sajin_suna.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1013,
+    "name": "Sajō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e5/Sajo.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1018,
+    "name": "Unmo Samidare",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c7/Bingo_bok_inside.png",
+    "affiliation": [
+      "Kirigakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Tenchi Bridge Reconnaissance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1019,
+    "name": "Samui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/23/Samui.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1025,
+    "name": "Sansho",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a8/Sansho.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1032,
+    "name": "Sari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/47/Sari.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1033,
+    "name": "Tsuzumi Sarugaku",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/69/Tsuzumi_Sarugaku_part_2.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1035,
+    "name": "Biwako Sarutobi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d0/Biwako_Sarutobi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Sarutobi",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Female",
+    "status": "Deceased"
+  },
+  {
+    "id": 1045,
+    "name": "Satetsu",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/ab/Satetsu.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1046,
+    "name": "Satō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f8/Sat%C5%8D_Anime.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1078,
+    "name": "Erimaki Sharo",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f8/Erimaki.png",
+    "affiliation": [
+      "Iwagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1080,
+    "name": "Shiba (Kusagakure)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/8d/Shiba_%28kusa%29.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1081,
+    "name": "Shibire",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/03/Shibire2.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1086,
+    "name": "Shiho",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/40/Shiho2.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1103,
+    "name": "Shio",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/81/Shio_Anime.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kawaki Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1105,
+    "name": "Shiore",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c9/Shiore.png",
+    "affiliation": [
+      "Kusagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1131,
+    "name": "Ran Sōgi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e9/Ran_Sogi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1132,
+    "name": "Suzu Sōgi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/23/Suzu_Sogi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1151,
+    "name": "Sukima",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bc/Sukima.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1159,
+    "name": "Suname",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/b2/Suname.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1164,
+    "name": "Suzume",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a6/Suzume_Infobox.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1168,
+    "name": "Soul Tao",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c6/Soul_Tao.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1169,
+    "name": "Tadaichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/ac/Tadaichi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1175,
+    "name": "Taji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c6/Taji.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1176,
+    "name": "Tajiki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/26/Tajik_mugshot.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1178,
+    "name": "Nitora Take",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/60/Nitora_Take.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1186,
+    "name": "Tango",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/91/Tango.png",
+    "affiliation": [
+      "Kumogakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1188,
+    "name": "Tanzō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4f/Tanz%C5%8D.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Chūnin Exams Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1189,
+    "name": "Soul Tao",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c6/Soul_Tao.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1190,
+    "name": "Soul Tao",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c6/Soul_Tao.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1191,
+    "name": "Tarō",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/39/Taro.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1193,
+    "name": "Tarui",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1b/Tarui.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1198,
+    "name": "Tatsuji",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/04/Tatsuji.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Tenchi Bridge Reconnaissance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1220,
+    "name": "Terai",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4a/Terai.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1224,
+    "name": "Tessa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c6/Tessa.png",
+    "affiliation": [
+      "Sunagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1231,
+    "name": "Tobio",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d3/Tobio.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1236,
+    "name": "Tessen Togeito",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/27/Tessen_Togeito.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Pain's Assault Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1238,
+    "name": "Tokara",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/38/Tokara2.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Climax",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1241,
+    "name": "Kabure Tokisuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/79/Kabure_Tokisuki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1243,
+    "name": "Tomari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/72/Tomari_new.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1248,
+    "name": "Katasuke Tōno",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/6d/Katasuke.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Versus Momoshiki Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1252,
+    "name": "Tora (Anbu)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bd/Tora_ANBU.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1253,
+    "name": "Kumade Toriichi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/76/Kumade_Toriichi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1254,
+    "name": "Takajō Torikai",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4e/Takajo_Torikai.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Tokubetsu Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1258,
+    "name": "Toshi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/3/3f/Toshi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1264,
+    "name": "Tsubusa",
+    "image": "https://static.wikia.nocookie.net/naruto/images/6/65/Tsubusa.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1267,
+    "name": "Tsuchino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/8c/Tsuchino_new.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Konoha Crush Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1268,
+    "name": "Tsuchinoe",
+    "image": "https://static.wikia.nocookie.net/naruto/images/b/bd/Tsuchinoe.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1269,
+    "name": "Tsuchinoto",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/53/Tsuchinoto.png",
+    "affiliation": [
+      "Konohagakure",
+      "Root"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Birth of the Ten-Tails' Jinchūriki",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1277,
+    "name": "Tsukune",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4c/Tsukune_Infobox.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1295,
+    "name": "Izumi Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/91/Izumi%27s_Profile_Image.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uchiha",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Sharingan"
+    ],
+    "arcOfDebut": "Epilogue Arc",
+    "gender": "Female",
+    "status": "Deceased"
+  },
+  {
+    "id": 1297,
+    "name": "Kagami Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/73/Kagami-Uchiha.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uchiha",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [
+      "Sharingan"
+    ],
+    "arcOfDebut": "Five Kage Summit Arc",
+    "gender": "Male",
+    "status": "Alive"
+  },
+  {
+    "id": 1300,
+    "name": "Mikoto Uchiha",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/8e/Mikoto_Uchiha.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "Uchiha",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Search for Tsunade Arc",
+    "gender": "Female",
+    "status": "Deceased"
+  },
+  {
+    "id": 1322,
+    "name": "Arashi Umeya",
+    "image": "https://static.wikia.nocookie.net/naruto/images/7/78/Arashi_Umeya.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Lightning Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1324,
+    "name": "Ikkaku Umino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/a5/Ikkaku_Umino.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1326,
+    "name": "Kohari Umino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/14/Kohari_Umino.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1329,
+    "name": "Unagi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/cb/Hibachi%27s_friend.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Past Arc (Filler)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1332,
+    "name": "Urushi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/f/f7/Urushi_Part_II.png",
+    "affiliation": [
+      "Konohagakure",
+      "Konoha Orphanage",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Climax",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1334,
+    "name": "Ushi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/c/c0/Ushi_ANBU.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Anbu",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1352,
+    "name": "Watase",
+    "image": "https://static.wikia.nocookie.net/naruto/images/2/2b/Watase.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1355,
+    "name": "Yagura (anime)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/e/e7/Yagura%28Anime%29.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Filler Arc (Part I)",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1357,
+    "name": "Yajirobee",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/5e/Yajirobee.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Land of Waves Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1358,
+    "name": "Yakku",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/84/Yakku.png",
+    "affiliation": [
+      "Sunagakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1380,
+    "name": "Kuwa Yokohori",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/1d/Kuwa_Yokohori.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Academy Entrance Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1388,
+    "name": "Kaede Yoshino",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d1/Kaede_yoshino.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1392,
+    "name": "Kiyoi Yotsuki",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/42/Kiyoi_Yotsuki.png",
+    "affiliation": [
+      "Kumogakure"
+    ],
+    "clan": "Yotsuki",
+    "rank": "Chūnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1395,
+    "name": "Yūdachi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/a/aa/Yudachi.png",
+    "affiliation": [
+      "Amegakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Six-Tails Unleashed Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1398,
+    "name": "Shinku Yūhi",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/0f/Shinku_Y%C5%ABhi.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War: Countdown",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1402,
+    "name": "Yukata",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/59/Yukata.png",
+    "affiliation": [
+      "Sunagakure",
+      "Allied Shinobi Forces"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "<a href=\"/wiki/File:Team_Matsuri_Attacked.png\" title=\"File:Team Matsuri Attacked.png\"><img alt=\"\" src=\"https://static.wikia.nocookie.net/naruto/images/6/6c/Team_Matsuri_Attacked.png/revision/latest/scale-to-width-down/180?cb=20150514121823\" decoding=\"async\" loading=\"lazy\" width=\"180\" height=\"101\" class=\"thumbimage\" data-image-name=\"Team Matsuri Attacked.png\" data-image-key=\"Team_Matsuri_Attacked.png\" data-src=\"https://static.wikia.nocookie.net/naruto/images/6/6c/Team_Matsuri_Attacked.png/revision/latest/scale-to-width-down/180?cb=20150514121823\" /></a> Yukata and her team are attacked."
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Fourth Shinobi War Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1403,
+    "name": "Yuki (Academy student)",
+    "image": "https://static.wikia.nocookie.net/naruto/images/d/d3/Yuki.png",
+    "affiliation": [
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1408,
+    "name": "Kae Yukiwari",
+    "image": "https://static.wikia.nocookie.net/naruto/images/4/4a/Kae_Yukiwari.png",
+    "affiliation": [
+      "Land of Bamboo",
+      "Konohagakure"
+    ],
+    "clan": "",
+    "rank": "Academy Student",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Boruto Arc",
+    "gender": "Female",
+    "status": ""
+  },
+  {
+    "id": 1409,
+    "name": "Yūra",
+    "image": "https://static.wikia.nocookie.net/naruto/images/8/85/Yura_in_sand_outfit.png",
+    "affiliation": [
+      "Sunagakure",
+      "Akatsuki"
+    ],
+    "clan": "",
+    "rank": "Jōnin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Kazekage Rescue Arc",
+    "gender": "Male",
+    "status": ""
+  },
+  {
+    "id": 1428,
+    "name": "Jirobo",
+    "image": "https://static.wikia.nocookie.net/naruto/images/9/9a/Jirobo.png",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [
+      "Earth Release"
+    ],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Mission Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1429,
+    "name": "Kidomaru",
+    "image": "https://static.wikia.nocookie.net/naruto/images/0/07/Kidomaru.png",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Mission Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1430,
+    "name": "Sakon",
+    "image": "https://static.wikia.nocookie.net/naruto/images/5/53/Sakon.png",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Mission Arc",
+    "gender": "Male",
+    "status": "Deceased"
+  },
+  {
+    "id": 1431,
+    "name": "Tayuya",
+    "image": "https://static.wikia.nocookie.net/naruto/images/1/11/Tayuya.png",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "clan": "",
+    "rank": "Genin",
+    "natureType": [],
+    "kekkeiGenkai": [],
+    "arcOfDebut": "Sasuke Recovery Mission Arc",
+    "gender": "Female",
+    "status": "Deceased"
+  }
+]
