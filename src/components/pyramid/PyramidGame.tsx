@@ -52,6 +52,7 @@ export function PyramidGame() {
         state: { won, mode: 'pyramid', guesses: 10, maxGuesses: 10, character: null, score: totalScore },
       });
     }
+  // Intentional: run only on mount to redirect if today's pyramid was already finished
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

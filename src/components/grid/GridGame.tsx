@@ -52,6 +52,7 @@ export function GridGame() {
         state: { won: gameState === 'won', mode: 'grid', guesses: correct, maxGuesses: 9, character: null },
       });
     }
+  // Intentional: run only on mount to redirect if today's game was already finished
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -198,7 +199,7 @@ export function GridGame() {
         </p>
       )}
       {wrongFlash && difficulty === 'casual' && (
-        <p className="font-body text-sm text-miss font-bold animate-pulse">
+        <p className="font-body text-sm text-miss font-bold motion-safe:animate-pulse">
           Wrong! Try a different character.
         </p>
       )}

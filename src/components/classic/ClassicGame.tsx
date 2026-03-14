@@ -51,6 +51,7 @@ export function ClassicGame() {
         },
       });
     }
+  // Intentional: run only on mount to redirect if today's game was already finished
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

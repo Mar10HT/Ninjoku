@@ -14,11 +14,11 @@ const BG: Record<FeedbackValue, string> = {
   lower: 'bg-miss',
 };
 
-// Non-color symbol for colorblind accessibility
-const SYMBOL: Record<FeedbackValue, string | null> = {
+// Non-color symbols — every state has a distinct symbol for colorblind accessibility
+const SYMBOL: Record<FeedbackValue, string> = {
   match: '✓',
   partial: '≈',
-  none: null,
+  none: '✗',
   higher: '↑',
   lower: '↓',
 };
@@ -34,7 +34,7 @@ export function FieldCell({ value, feedback, col }: Props) {
       style={{ animationDelay: `${col * 70}ms` }}
     >
       <div className="flex flex-col items-center gap-0.5">
-        {symbol && <span className="text-base font-bold leading-none">{symbol}</span>}
+        <span className="text-base font-bold leading-none">{symbol}</span>
         <span className="leading-tight line-clamp-2 break-words text-xs">{display}</span>
       </div>
     </td>

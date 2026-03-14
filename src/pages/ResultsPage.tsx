@@ -63,6 +63,7 @@ export function ResultsPage() {
     } catch {
       // ignore
     }
+  // Intentional: run only on mount — dedup key prevents double-counting in StrictMode
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

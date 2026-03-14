@@ -10,8 +10,8 @@ interface Props {
 export function GuessRow({ character, feedback }: Props) {
   return (
     <tr>
-      {/* Character cell — fades in first */}
-      <td className="bg-surface border border-border px-3 py-2 min-w-[120px] animate-fade-in">
+      {/* Character cell — row header for screen readers */}
+      <th scope="row" className="bg-surface border border-border px-3 py-2 min-w-[120px] animate-fade-in font-normal text-left">
         <div className="flex items-center gap-2">
           <img
             src={character.image}
@@ -25,7 +25,7 @@ export function GuessRow({ character, feedback }: Props) {
           />
           <span className="font-body text-sm text-ink leading-tight">{character.name}</span>
         </div>
-      </td>
+      </th>
       <FieldCell value={character.affiliation}        feedback={feedback.affiliation}  col={1} />
       <FieldCell value={character.clan || '—'}        feedback={feedback.clan}         col={2} />
       <FieldCell value={character.rank || '—'}        feedback={feedback.rank}         col={3} />

@@ -77,10 +77,10 @@ function PyramidRules() {
         Fill a pyramid of 10 cells, tier by tier from top to bottom. Each row has its own criterion.
       </p>
       <div className="bg-bg rounded-lg p-3 font-mono text-xs text-center space-y-1 text-muted">
-        <p>[ ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← Row 1 · +100 pts</p>
-        <p>[ ][ ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← Row 2 · +125 pts</p>
-        <p>[ ][ ][ ]&nbsp;&nbsp; ← Row 3 · +150 pts</p>
-        <p>[ ][ ][ ][ ] ← Row 4 · +200 pts</p>
+        <p>[ ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← Row 1 · +200 pts</p>
+        <p>[ ][ ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ← Row 2 · +150 pts</p>
+        <p>[ ][ ][ ]&nbsp;&nbsp; ← Row 3 · +125 pts</p>
+        <p>[ ][ ][ ][ ] ← Row 4 · +100 pts</p>
       </div>
       <div className="space-y-2">
         <div className="flex items-start gap-2">
@@ -183,8 +183,10 @@ export function HowToPlayModal({ onClose }: Props) {
           {TABS.map((t) => (
             <button
               key={t.id}
+              id={`modal-tab-${t.id}`}
               role="tab"
               aria-selected={tab === t.id}
+              aria-controls="modal-tabpanel"
               onClick={() => setTab(t.id)}
               className={`flex-1 py-2.5 text-sm font-body transition-colors ${
                 tab === t.id
@@ -198,7 +200,12 @@ export function HowToPlayModal({ onClose }: Props) {
         </div>
 
         {/* Content */}
-        <div className="px-6 py-5 max-h-[60vh] overflow-y-auto" role="tabpanel">
+        <div
+          id="modal-tabpanel"
+          role="tabpanel"
+          aria-labelledby={`modal-tab-${tab}`}
+          className="px-6 py-5 max-h-[60vh] overflow-y-auto"
+        >
           {tab === 'classic' && <ClassicRules />}
           {tab === 'grid' && <GridRules />}
           {tab === 'pyramid' && <PyramidRules />}

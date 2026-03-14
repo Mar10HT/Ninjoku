@@ -1,8 +1,36 @@
-import { useEffect } from 'react';
+import { type ReactNode, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 type Difficulty = 'casual' | 'pro';
+
+// Defined outside ModeSelect to prevent unmount/remount on every parent re-render
+function DifficultyToggle({
+  value,
+  onChange,
+}: {
+  value: Difficulty;
+  onChange: (v: Difficulty) => void;
+}) {
+  return (
+    <div className="inline-flex rounded-md overflow-hidden border border-border text-xs font-display tracking-wider">
+      {(['casual', 'pro'] as Difficulty[]).map((d) => (
+        <button
+          key={d}
+          onClick={() => onChange(d)}
+          aria-pressed={value === d}
+          className={`px-4 py-2.5 transition-colors uppercase ${
+            value === d
+              ? 'bg-ink text-surface font-bold'
+              : 'bg-surface text-muted hover:text-ink'
+          }`}
+        >
+          {d}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 export function ModeSelect() {
   const navigate = useNavigate();
@@ -15,32 +43,6 @@ export function ModeSelect() {
     'narutodle_difficulty_grid',
     'casual',
   );
-
-  function DifficultyToggle({
-    value,
-    onChange,
-  }: {
-    value: Difficulty;
-    onChange: (v: Difficulty) => void;
-  }) {
-    return (
-      <div className="inline-flex rounded-md overflow-hidden border border-border text-xs font-display tracking-wider">
-        {(['casual', 'pro'] as Difficulty[]).map((d) => (
-          <button
-            key={d}
-            onClick={() => onChange(d)}
-            className={`px-4 py-2.5 transition-colors uppercase ${
-              value === d
-                ? 'bg-ink text-surface font-bold'
-                : 'bg-surface text-muted hover:text-ink'
-            }`}
-          >
-            {d}
-          </button>
-        ))}
-      </div>
-    );
-  }
 
   return (
     <main className="min-h-screen bg-bg flex flex-col items-center justify-center px-4 py-12">
@@ -103,8 +105,8 @@ interface ModeCardProps {
   accentClass: string;
   accentTextClass: string;
   description: string;
-  badge: React.ReactNode;
-  toggle: React.ReactNode;
+  badge: ReactNode;
+  toggle: ReactNode;
   onPlay: () => void;
 }
 
@@ -131,6 +133,7 @@ function ModeCard({
       {toggle && <div>{toggle}</div>}
       <button
         onClick={onPlay}
+        aria-label={`Play ${title}`}
         className={`w-full py-4 font-display font-bold text-sm tracking-widest rounded-lg transition-colors border ${accentClass} ${accentTextClass} hover:bg-ink hover:text-surface hover:border-ink`}
       >
         PLAY NOW
