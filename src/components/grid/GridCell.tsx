@@ -55,7 +55,7 @@ export function GridCell({ state, onClick }: Props) {
     return (
       <button
         onClick={onClick}
-        className="flex items-center justify-center border-2 border-accent rounded-lg aspect-square min-h-[60px] bg-accent/5 w-full transition-colors active:scale-95"
+        className="flex items-center justify-center border-2 border-accent rounded-lg aspect-square min-h-[60px] bg-accent/5 w-full transition-all hover:scale-[1.04] active:scale-95"
         aria-label="Active cell — type to search"
       >
         <span className="text-accent text-2xl font-bold" aria-hidden="true">?</span>
@@ -66,7 +66,7 @@ export function GridCell({ state, onClick }: Props) {
   return (
     <button
       onClick={onClick}
-      className="flex items-center justify-center border-2 border-dashed border-border rounded-lg aspect-square min-h-[60px] hover:border-accent hover:bg-accent/5 transition-colors w-full active:scale-95"
+      className="flex items-center justify-center border-2 border-dashed border-border rounded-lg aspect-square min-h-[60px] hover:border-accent hover:bg-accent/5 hover:scale-[1.04] transition-all w-full active:scale-95"
       aria-label="Empty cell — click to guess"
     >
       <span className="text-muted/50 text-2xl" aria-hidden="true">?</span>

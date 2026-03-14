@@ -67,7 +67,7 @@ export function PyramidCell({ state, onClick }: Props) {
     return (
       <button
         onClick={onClick}
-        className="flex items-center justify-center border-2 border-accent rounded-lg w-16 h-16 bg-accent/5 transition-colors active:scale-95"
+        className="flex items-center justify-center border-2 border-accent rounded-lg w-16 h-16 bg-accent/5 transition-all hover:scale-[1.06] active:scale-95"
         aria-label="Active cell — type to search"
       >
         <span className="text-accent text-xl font-bold" aria-hidden="true">?</span>
@@ -78,7 +78,7 @@ export function PyramidCell({ state, onClick }: Props) {
   return (
     <button
       onClick={onClick}
-      className="flex items-center justify-center border-2 border-dashed border-border rounded-lg w-16 h-16 opacity-50 hover:opacity-80 hover:border-accent transition-all active:scale-95"
+      className="flex items-center justify-center border-2 border-dashed border-border rounded-lg w-16 h-16 opacity-50 hover:opacity-90 hover:border-accent hover:scale-[1.06] transition-all active:scale-95"
       aria-label="Pending cell — click to guess"
     >
       <span className="text-muted text-lg" aria-hidden="true">·</span>

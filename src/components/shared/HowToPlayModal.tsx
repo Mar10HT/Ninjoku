@@ -162,7 +162,7 @@ export function HowToPlayModal({ onClose }: Props) {
         aria-modal="true"
         aria-labelledby="modal-title"
         onKeyDown={handleKeyDown}
-        className="bg-surface border border-border rounded-xl shadow-xl w-full max-w-md mx-4 overflow-hidden"
+        className="bg-surface border border-border rounded-xl shadow-xl w-full max-w-md mx-4 overflow-hidden animate-slide-up-scale"
       >
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-border">

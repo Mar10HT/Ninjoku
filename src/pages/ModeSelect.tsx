@@ -61,6 +61,7 @@ export function ModeSelect() {
           badge={null}
           toggle={<DifficultyToggle value={classicDiff} onChange={setClassicDiff} />}
           onPlay={() => navigate('/classic')}
+          entranceDelay={80}
         />
 
         {/* Grid */}
@@ -72,6 +73,7 @@ export function ModeSelect() {
           badge={null}
           toggle={<DifficultyToggle value={gridDiff} onChange={setGridDiff} />}
           onPlay={() => navigate('/grid')}
+          entranceDelay={180}
         />
 
         {/* Pyramid */}
@@ -87,6 +89,7 @@ export function ModeSelect() {
           }
           toggle={null}
           onPlay={() => navigate('/pyramid')}
+          entranceDelay={280}
         />
       </div>
 
@@ -108,6 +111,7 @@ interface ModeCardProps {
   badge: ReactNode;
   toggle: ReactNode;
   onPlay: () => void;
+  entranceDelay?: number;
 }
 
 function ModeCard({
@@ -118,10 +122,12 @@ function ModeCard({
   badge,
   toggle,
   onPlay,
+  entranceDelay = 0,
 }: ModeCardProps) {
   return (
     <div
-      className={`flex flex-col gap-5 bg-surface border-2 ${accentClass} rounded-xl p-8`}
+      className={`flex flex-col gap-5 bg-surface border-2 ${accentClass} rounded-xl p-8 animate-fade-up`}
+      style={{ animationDelay: `${entranceDelay}ms` }}
     >
       <div className="flex items-center justify-between">
         <h3 className={`font-display font-black text-2xl tracking-widest ${accentTextClass}`}>

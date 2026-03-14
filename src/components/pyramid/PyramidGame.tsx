@@ -138,7 +138,7 @@ export function PyramidGame() {
           return (
             <div key={criterion.id} className="flex flex-col items-center gap-1">
               {/* Criterion label */}
-              <div className={`px-3 py-0.5 rounded-full text-xs font-display tracking-wider uppercase cursor-default ${
+              <div className={`px-3 py-0.5 rounded-full text-xs font-display tracking-wider uppercase cursor-default transition-colors duration-200 ${
                 isActiveRow
                   ? 'bg-accent text-white'
                   : 'bg-border/40 text-muted'

@@ -130,7 +130,7 @@ export function ResultsPage() {
       <Navbar />
       <main className="flex-1 flex flex-col items-center justify-center px-4 py-12 gap-8">
         {/* Result */}
-        <div className="text-center">
+        <div className="text-center animate-fade-up" style={{ animationDelay: '60ms' }}>
           <p className={`font-display text-4xl font-black mb-2 ${won ? 'text-match' : 'text-miss'}`}>
             {won ? 'VICTORY!' : 'DEFEAT!'}
           </p>
@@ -139,7 +139,10 @@ export function ResultsPage() {
 
         {/* Answer card — only for Classic mode (character is not null) */}
         {character && (
-          <div className="flex flex-col items-center gap-3 bg-surface border border-border rounded-xl p-6 w-full max-w-xs">
+          <div
+            className="flex flex-col items-center gap-3 bg-surface border border-border rounded-xl p-6 w-full max-w-xs animate-fade-up"
+            style={{ animationDelay: '220ms' }}
+          >
             <p className="font-display text-xs tracking-widest text-muted uppercase">The answer was</p>
             <img
               src={character.image}
@@ -157,7 +160,10 @@ export function ResultsPage() {
         )}
 
         {/* Countdown */}
-        <div className="text-center">
+        <div
+          className="text-center animate-fade-up"
+          style={{ animationDelay: character ? '380ms' : '220ms' }}
+        >
           <p className="font-body text-xs text-muted uppercase tracking-widest mb-1">
             Next challenge in
           </p>
@@ -165,10 +171,13 @@ export function ResultsPage() {
         </div>
 
         {/* Actions */}
-        <div className="flex flex-col gap-3 w-full max-w-xs">
+        <div
+          className="flex flex-col gap-3 w-full max-w-xs animate-fade-up"
+          style={{ animationDelay: character ? '480ms' : '320ms' }}
+        >
           <button
             onClick={handleShare}
-            className="w-full py-3 bg-accent text-white font-display font-bold text-xs tracking-widest rounded-lg hover:bg-accent/90 transition-colors"
+            className="w-full py-3 bg-accent text-white font-display font-bold text-xs tracking-widest rounded-lg hover:bg-accent/90 hover:scale-[1.02] transition-all active:scale-95"
           >
             {copied ? 'COPIED!' : copyFailed ? 'COPY FAILED — try manually' : 'SHARE RESULT'}
           </button>
