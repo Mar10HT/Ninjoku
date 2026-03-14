@@ -24,6 +24,12 @@ const CATEGORY_PAIRS: Array<[Criterion['category'], Criterion['category']]> = [
   ['clan', 'nature'],
   ['nature', 'rank'],
   ['village', 'kekkei'],
+  ['village', 'gender'],
+  ['village', 'status'],
+  ['rank', 'gender'],
+  ['rank', 'status'],
+  ['nature', 'gender'],
+  ['nature', 'status'],
 ];
 
 function pickN<T>(arr: T[], n: number, rand: () => number): T[] {
@@ -39,7 +45,7 @@ export function getDailyGrid(characters: Character[]): DailyGrid {
   const now = new Date();
   const seed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
 
-  for (let offset = 0; offset < 100; offset++) {
+  for (let offset = 0; offset < 200; offset++) {
     const rand = mulberry32(seed + offset * 7919);
 
     const pairIdx = Math.floor(rand() * CATEGORY_PAIRS.length);
@@ -56,7 +62,8 @@ export function getDailyGrid(characters: Character[]): DailyGrid {
     let valid = true;
     for (const row of rows) {
       for (const col of cols) {
-        if (getIntersection(row, col, characters).length < 1) {
+        // Require at least 3 valid characters per cell so no combo is trivially empty or near-impossible
+        if (getIntersection(row, col, characters).length < 3) {
           valid = false;
           break;
         }

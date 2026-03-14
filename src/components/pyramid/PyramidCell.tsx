@@ -15,20 +15,24 @@ export function PyramidCell({ state, onClick }: Props) {
   if (state.status === 'correct') {
     return (
       <div
-        className="relative flex flex-col items-center justify-center bg-match/10 border-2 border-match rounded-lg p-1.5 w-16 h-16 cursor-default animate-pop-in"
+        className="relative w-16 h-16 rounded-lg overflow-hidden border-2 border-match cursor-default animate-pop-in"
         role="img"
         aria-label={`${state.character.name} — correct, +${state.score} pts`}
       >
         <img
           src={state.character.image}
           alt={state.character.name}
-          className="w-7 h-7 rounded-full object-cover bg-border"
-          onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/28x28/C8B89A/1A1209?text=?'; }}
+          className="w-full h-full object-cover object-top"
+          onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/64x64/C8B89A/1A1209?text=?'; }}
         />
-        <span className="font-display text-[9px] text-ink text-center leading-tight mt-0.5 line-clamp-1 w-full px-0.5">
-          {state.character.name}
-        </span>
-        <span className="absolute top-0.5 right-1 font-mono text-[8px] text-match font-bold">
+        {/* Name overlay */}
+        <div className="absolute bottom-0 left-0 right-0 bg-match/80 px-1 py-0.5">
+          <span className="font-display text-lg text-white leading-none truncate block text-center">
+            {state.character.name}
+          </span>
+        </div>
+        {/* Score badge */}
+        <span className="absolute top-0.5 right-1 font-mono text-[8px] text-white font-bold drop-shadow">
           +{state.score}
         </span>
       </div>
@@ -38,20 +42,23 @@ export function PyramidCell({ state, onClick }: Props) {
   if (state.status === 'wrong') {
     return (
       <div
-        className="relative flex flex-col items-center justify-center bg-miss/10 border-2 border-miss rounded-lg p-1.5 w-16 h-16 cursor-default animate-fade-in"
+        className="relative w-16 h-16 rounded-lg overflow-hidden border-2 border-miss cursor-default animate-fade-in"
         role="img"
         aria-label={`${state.character.name} — wrong`}
       >
         <img
           src={state.character.image}
           alt={state.character.name}
-          className="w-7 h-7 rounded-full object-cover bg-border opacity-60"
-          onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/28x28/C8B89A/1A1209?text=?'; }}
+          className="w-full h-full object-cover object-top opacity-60"
+          onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/64x64/C8B89A/1A1209?text=?'; }}
         />
-        <span className="font-display text-[9px] text-miss text-center leading-tight mt-0.5 line-clamp-1 w-full px-0.5">
-          {state.character.name}
-        </span>
-        <span className="absolute top-0.5 right-1 font-mono text-[8px] text-miss font-bold">✗</span>
+        {/* Name overlay */}
+        <div className="absolute bottom-0 left-0 right-0 bg-miss/80 px-1 py-0.5">
+          <span className="font-display text-lg text-white leading-none truncate block text-center">
+            {state.character.name}
+          </span>
+        </div>
+        <span className="absolute top-0.5 right-1 font-mono text-[8px] text-white font-bold drop-shadow">✗</span>
       </div>
     );
   }

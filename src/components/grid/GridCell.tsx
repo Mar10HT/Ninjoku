@@ -15,20 +15,24 @@ export function GridCell({ state, onClick }: Props) {
   if (state.status === 'correct') {
     return (
       <div
-        className="relative flex flex-col items-center justify-center bg-match/10 border-2 border-match rounded-lg p-1.5 aspect-square min-h-[60px] animate-pop-in"
+        className="relative aspect-square min-h-[60px] rounded-lg overflow-hidden border-2 border-match animate-pop-in"
         role="img"
         aria-label={`${state.character.name} — correct, ${state.rarity}% rarity`}
       >
         <img
           src={state.character.image}
           alt={state.character.name}
-          className="w-8 h-8 rounded-full object-cover bg-border flex-shrink-0"
-          onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/40x40/C8B89A/1A1209?text=?'; }}
+          className="w-full h-full object-cover object-top"
+          onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/60x60/C8B89A/1A1209?text=?'; }}
         />
-        <span className="font-display text-[11px] text-ink text-center leading-tight mt-1 line-clamp-2 break-words">
-          {state.character.name}
-        </span>
-        <span className="absolute top-1 right-1.5 font-mono text-[9px] text-match font-bold">
+        {/* Name overlay */}
+        <div className="absolute bottom-0 left-0 right-0 bg-match/80 px-1 py-0.5">
+          <span className="font-display text-lg text-white leading-none truncate block text-center">
+            {state.character.name}
+          </span>
+        </div>
+        {/* Rarity badge */}
+        <span className="absolute top-0.5 right-1 font-mono text-[8px] text-white font-bold drop-shadow">
           {state.rarity}%
         </span>
       </div>
@@ -59,7 +63,6 @@ export function GridCell({ state, onClick }: Props) {
     );
   }
 
-  // empty
   return (
     <button
       onClick={onClick}

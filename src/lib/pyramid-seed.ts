@@ -36,7 +36,7 @@ export function getDailyPyramid(characters: Character[]): DailyPyramid {
       if (usedCategories.has(c.category)) continue;
       const eligible = characters.filter(c.matches).length;
       const rowSize = ROW_SIZES[criteria.length];
-      if (eligible < rowSize + 3) continue;
+      if (eligible < rowSize + 6) continue;
       criteria.push(c);
       usedCategories.add(c.category);
     }
