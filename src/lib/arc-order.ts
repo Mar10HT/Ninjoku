@@ -5,7 +5,7 @@ export const ARC_ORDER: string[] = [
   'Chūnin Exams Arc',
   'Konoha Crush Arc',
   'Search for Tsunade Arc',
-  'Sasuke Recovery Arc',
+  'Sasuke Recovery Mission Arc',
   'Filler Arc (Part I)',
   // Shippuden
   'Kazekage Rescue Arc',
@@ -31,6 +31,16 @@ export const ARC_ORDER: string[] = [
   'Kawaki Arc',
   'Boruto Arc',
 ];
+
+export const BORUTO_ARCS = new Set([
+  'Academy Entrance Arc',
+  'Genin Mission Arc',
+  'Versus Momoshiki Arc',
+  'Sarada Arc',
+  'Mujina Bandits Arc',
+  'Kawaki Arc',
+  'Boruto Arc',
+]);
 
 export function arcIndex(name: string): number {
   return ARC_ORDER.indexOf(name);

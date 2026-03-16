@@ -7,8 +7,9 @@ import { getTodayKey } from '../../lib/seed';
 import { CharacterSearch } from '../shared/CharacterSearch';
 import { PyramidCell, type PyramidCellState } from './PyramidCell';
 import charactersData from '../../data/characters.json';
+import { BORUTO_ARCS } from '../../lib/arc-order';
 
-const characters = charactersData as Character[];
+const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
 
 // Row sizes: rows[0] = top = 1 cell, rows[3] = bottom = 4 cells
 const ROW_SIZES = [1, 2, 3, 4];
@@ -194,13 +195,13 @@ export function PyramidGame() {
 
       {!finished && !activeCell && (
         <p className="font-body text-sm text-muted opacity-60">
-          Click a cell to start guessing.
+          Select a cell to place your ninja.
         </p>
       )}
 
       {finished && (
         <p className="font-display text-lg text-match font-bold tracking-wide">
-          Final score: {totalScore} pts! Redirecting...
+          Mission complete — {totalScore} pts!
         </p>
       )}
     </div>

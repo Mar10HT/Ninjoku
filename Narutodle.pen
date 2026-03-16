@@ -291,8 +291,8 @@
     {
       "type": "frame",
       "id": "1vlMO",
-      "x": 450,
-      "y": 0,
+      "x": 433,
+      "y": -3,
       "name": "01 — Home",
       "width": 1440,
       "height": 900,
@@ -426,7 +426,8 @@
               "fill": "#888888",
               "content": "Guess the hidden ninja",
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -3686,7 +3687,8 @@
               "fill": "#6B5B45",
               "content": "Guess the hidden ninja",
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -4523,7 +4525,7 @@
               "id": "Wjxj2",
               "fill": "#E85D04",
               "content": "NARUTODLE",
-              "fontFamily": "Inter",
+              "fontFamily": "Cinzel",
               "fontSize": 16,
               "fontWeight": "700",
               "letterSpacing": 2
@@ -4540,7 +4542,7 @@
                   "id": "APe6B",
                   "fill": "#5C4A35",
                   "content": "#247",
-                  "fontFamily": "Inter",
+                  "fontFamily": "Philosopher",
                   "fontSize": 13,
                   "fontWeight": "normal"
                 },
@@ -4566,7 +4568,7 @@
                       "id": "JwUDi",
                       "fill": "#6B5B45",
                       "content": "How to play",
-                      "fontFamily": "Inter",
+                      "fontFamily": "Philosopher",
                       "fontSize": 12,
                       "fontWeight": "normal"
                     }
@@ -4587,7 +4589,7 @@
               "type": "frame",
               "id": "FkpRN",
               "name": "left-pane",
-              "width": 400,
+              "width": 320,
               "height": "fill_container",
               "stroke": {
                 "thickness": {
@@ -4606,10 +4608,10 @@
                 {
                   "type": "text",
                   "id": "kAwOB",
-                  "fill": "#5C4A35",
+                  "fill": "#E85D04",
                   "content": "GUESS 5 OF 8",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
+                  "fontFamily": "Cinzel",
+                  "fontSize": 11,
                   "fontWeight": "700",
                   "letterSpacing": 2
                 },
@@ -4646,7 +4648,7 @@
                       "id": "UnrM6",
                       "fill": "#A09078",
                       "content": "Type a character name…",
-                      "fontFamily": "Inter",
+                      "fontFamily": "Philosopher",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     }
@@ -4657,7 +4659,7 @@
                   "id": "dNbRK",
                   "fill": "#5C4A35",
                   "content": "ATTRIBUTES LEGEND",
-                  "fontFamily": "Inter",
+                  "fontFamily": "Cinzel",
                   "fontSize": 10,
                   "fontWeight": "700",
                   "letterSpacing": 2
@@ -4692,7 +4694,7 @@
                           "id": "WC8Lj",
                           "fill": "#6B5B45",
                           "content": "Exact match",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Philosopher",
                           "fontSize": 12,
                           "fontWeight": "normal"
                         }
@@ -4720,7 +4722,7 @@
                           "id": "q70y4",
                           "fill": "#6B5B45",
                           "content": "Partial / close",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Philosopher",
                           "fontSize": 12,
                           "fontWeight": "normal"
                         }
@@ -4748,7 +4750,7 @@
                           "id": "nbdBa",
                           "fill": "#6B5B45",
                           "content": "No match",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Philosopher",
                           "fontSize": 12,
                           "fontWeight": "normal"
                         }
@@ -4776,7 +4778,7 @@
                   "id": "jGCGy",
                   "fill": "#5C4A35",
                   "content": "PREVIOUS GUESSES",
-                  "fontFamily": "Inter",
+                  "fontFamily": "Cinzel",
                   "fontSize": 10,
                   "fontWeight": "700",
                   "letterSpacing": 2
@@ -4786,14 +4788,14 @@
                   "id": "i4UCP",
                   "name": "colHeader",
                   "width": "fill_container",
-                  "height": 32,
+                  "height": 44,
                   "gap": 4,
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
                       "id": "lKQOd",
-                      "width": 110,
+                      "width": 130,
                       "height": "fill_container",
                       "padding": [
                         0,
@@ -4808,7 +4810,7 @@
                           "id": "AgCyc",
                           "fill": "#5C4A35",
                           "content": "CHARACTER",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4828,7 +4830,7 @@
                           "id": "Tdpxy",
                           "fill": "#5C4A35",
                           "content": "AFFILIATION",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4848,7 +4850,7 @@
                           "id": "aaTzC",
                           "fill": "#5C4A35",
                           "content": "CLAN",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4868,7 +4870,7 @@
                           "id": "agHAn",
                           "fill": "#5C4A35",
                           "content": "RANK",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4888,7 +4890,7 @@
                           "id": "vwuK5",
                           "fill": "#5C4A35",
                           "content": "NATURE",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4909,7 +4911,7 @@
                           "id": "lGM8G",
                           "fill": "#5C4A35",
                           "content": "KKG",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4930,7 +4932,7 @@
                           "id": "SwyWF",
                           "fill": "#5C4A35",
                           "content": "SAGA",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4950,7 +4952,7 @@
                           "id": "8h7db",
                           "fill": "#5C4A35",
                           "content": "GENDER",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4970,7 +4972,7 @@
                           "id": "ECKVG",
                           "fill": "#5C4A35",
                           "content": "STATUS",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Cinzel",
                           "fontSize": 9,
                           "fontWeight": "700",
                           "letterSpacing": 1
@@ -4992,14 +4994,14 @@
                       "id": "Bf0Hr",
                       "name": "row1",
                       "width": "fill_container",
-                      "height": 52,
+                      "height": 76,
                       "cornerRadius": 4,
                       "gap": 4,
                       "children": [
                         {
                           "type": "frame",
                           "id": "UYV2r",
-                          "width": 110,
+                          "width": 130,
                           "height": "fill_container",
                           "fill": "#FFFCF5",
                           "cornerRadius": 4,
@@ -5007,21 +5009,32 @@
                             "thickness": 1,
                             "fill": "#C8B89A"
                           },
-                          "gap": 10,
+                          "gap": 8,
                           "padding": [
-                            0,
-                            0,
                             0,
                             10
                           ],
                           "alignItems": "center",
                           "children": [
                             {
+                              "type": "frame",
+                              "id": "uIcku",
+                              "name": "av1",
+                              "width": 34,
+                              "height": 34,
+                              "fill": "#D4C9B0",
+                              "cornerRadius": 17,
+                              "stroke": {
+                                "thickness": 1,
+                                "fill": "#C8B89A"
+                              }
+                            },
+                            {
                               "type": "text",
                               "id": "4St13",
                               "fill": "#1A1209",
                               "content": "Naruto U.",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 12,
                               "fontWeight": "600"
                             }
@@ -5042,7 +5055,7 @@
                               "id": "jYzij",
                               "fill": "#1A1209",
                               "content": "Konoha",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5063,7 +5076,7 @@
                               "id": "17I1c",
                               "fill": "#1A1209",
                               "content": "—",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5084,7 +5097,7 @@
                               "id": "3Cif7",
                               "fill": "#1A1209",
                               "content": "Uzumaki",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5105,7 +5118,7 @@
                               "id": "LSw30",
                               "fill": "#1A1209",
                               "content": "Genin↑",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5127,7 +5140,7 @@
                               "id": "kxDrP",
                               "fill": "#FFFCF5",
                               "content": "None",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5149,7 +5162,7 @@
                               "id": "RtvCx",
                               "fill": "#1A1209",
                               "content": "Pt.1 ↑",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5170,7 +5183,7 @@
                               "id": "Woa7x",
                               "fill": "#1A1209",
                               "content": "Wind",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5191,7 +5204,7 @@
                               "id": "wTiI8",
                               "fill": "#1A1209",
                               "content": "Male",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5204,14 +5217,14 @@
                       "id": "7mmkw",
                       "name": "row2",
                       "width": "fill_container",
-                      "height": 52,
+                      "height": 76,
                       "cornerRadius": 4,
                       "gap": 4,
                       "children": [
                         {
                           "type": "frame",
                           "id": "UlYMy",
-                          "width": 110,
+                          "width": 130,
                           "height": "fill_container",
                           "fill": "#FFFCF5",
                           "cornerRadius": 4,
@@ -5219,14 +5232,32 @@
                             "thickness": 1,
                             "fill": "#C8B89A"
                           },
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
                           "alignItems": "center",
                           "children": [
+                            {
+                              "type": "frame",
+                              "id": "9dvJC",
+                              "name": "av2",
+                              "width": 34,
+                              "height": 34,
+                              "fill": "#D4C9B0",
+                              "cornerRadius": 17,
+                              "stroke": {
+                                "thickness": 1,
+                                "fill": "#C8B89A"
+                              }
+                            },
                             {
                               "type": "text",
                               "id": "25x5R",
                               "fill": "#1A1209",
                               "content": "Sasuke U.",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 12,
                               "fontWeight": "600"
                             }
@@ -5245,7 +5276,7 @@
                               "id": "SjzsA",
                               "fill": "#1A1209",
                               "content": "Konoha",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5264,7 +5295,7 @@
                               "id": "P1FKq",
                               "fill": "#1A1209",
                               "content": "Uchiha",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5302,7 +5333,7 @@
                               "id": "dbHDw",
                               "fill": "#FFFCF5",
                               "content": "Sharingan",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5324,7 +5355,7 @@
                               "id": "7j1QJ",
                               "fill": "#FFFCF5",
                               "content": "Pt.1",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 11,
                               "fontWeight": "600"
                             }
@@ -5353,7 +5384,7 @@
                       "id": "JV1k6",
                       "name": "emptyRow",
                       "width": "fill_container",
-                      "height": 52,
+                      "height": 76,
                       "fill": "#E85D040A",
                       "cornerRadius": 4,
                       "stroke": {
@@ -5365,7 +5396,7 @@
                         {
                           "type": "frame",
                           "id": "HsvBy",
-                          "width": 110,
+                          "width": 130,
                           "height": "fill_container",
                           "fill": "#FFFCF5",
                           "cornerRadius": 4,
@@ -5381,7 +5412,7 @@
                               "id": "z9QxU",
                               "fill": "#E85D04",
                               "content": "?",
-                              "fontFamily": "Inter",
+                              "fontFamily": "Philosopher",
                               "fontSize": 16,
                               "fontWeight": "700"
                             }
@@ -8333,6 +8364,512 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "24hvD",
+      "x": 0,
+      "y": 2260,
+      "name": "Font Comparison",
+      "width": 1400,
+      "height": 620,
+      "fill": "#FBF4E3",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": 48,
+      "children": [
+        {
+          "type": "text",
+          "id": "yRk5w",
+          "name": "title",
+          "fill": "#6B5B45",
+          "content": "Font Options — Konoha Scroll Theme",
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "0OcIS",
+          "name": "cols",
+          "width": "fill_container",
+          "height": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "k2ym9",
+              "name": "c1",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFCF5",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vumVE",
+                  "name": "l1",
+                  "fill": "#C8B89A",
+                  "content": "① Cinzel",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "8nZZv",
+                  "name": "h1",
+                  "fill": "#1A1209",
+                  "content": "NINJOKU",
+                  "fontFamily": "Cinzel",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "YkL8F",
+                  "name": "s1",
+                  "fill": "#6B5B45",
+                  "content": "PREVIOUS GUESSES",
+                  "fontFamily": "Cinzel",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "WS1NM",
+                  "name": "d1",
+                  "fill": "#1A1209",
+                  "content": "Konoha · Jonin",
+                  "fontFamily": "Cinzel",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Bebgx",
+                  "name": "e1",
+                  "fill": "#1A1209",
+                  "content": "Fire · Wind",
+                  "fontFamily": "Cinzel",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KvyFF",
+                  "name": "t1",
+                  "fill": "#1A1209",
+                  "content": "Uchiha Clan",
+                  "fontFamily": "Cinzel",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "y2YAQ",
+                  "name": "r1",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#C8B89A"
+                },
+                {
+                  "type": "text",
+                  "id": "LI55X",
+                  "name": "n1",
+                  "fill": "#6B5B45",
+                  "content": "Roman inscription feel.\nElegant, authoritative.\nWorks well at all sizes.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tsc8S",
+              "name": "c2",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFCF5",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hG6fe",
+                  "name": "l2",
+                  "fill": "#C8B89A",
+                  "content": "② Philosopher",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "wlZQZ",
+                  "name": "h2",
+                  "fill": "#1A1209",
+                  "content": "NINJOKU",
+                  "fontFamily": "Philosopher",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "BM8zF",
+                  "name": "s2",
+                  "fill": "#6B5B45",
+                  "content": "PREVIOUS GUESSES",
+                  "fontFamily": "Philosopher",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "5ayiy",
+                  "name": "d2",
+                  "fill": "#1A1209",
+                  "content": "Konoha · Jonin",
+                  "fontFamily": "Philosopher",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eOGqW",
+                  "name": "e2",
+                  "fill": "#1A1209",
+                  "content": "Fire · Wind",
+                  "fontFamily": "Philosopher",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ZKByj",
+                  "name": "t2",
+                  "fill": "#1A1209",
+                  "content": "Uchiha Clan",
+                  "fontFamily": "Philosopher",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "voXrZ",
+                  "name": "r2",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#C8B89A"
+                },
+                {
+                  "type": "text",
+                  "id": "4kn9q",
+                  "name": "n2",
+                  "fill": "#6B5B45",
+                  "content": "Greek-inspired serif.\nWarm and readable.\nBalanced personality.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tkftB",
+              "name": "c3",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFCF5",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rQtcl",
+                  "name": "l3",
+                  "fill": "#C8B89A",
+                  "content": "③ Cormorant Garamond",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "bbtC4",
+                  "name": "h3",
+                  "fill": "#1A1209",
+                  "content": "NINJOKU",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "5gTa7",
+                  "name": "s3",
+                  "fill": "#6B5B45",
+                  "content": "PREVIOUS GUESSES",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "sjeZI",
+                  "name": "d3",
+                  "fill": "#1A1209",
+                  "content": "Konoha · Jonin",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TtB90",
+                  "name": "e3",
+                  "fill": "#1A1209",
+                  "content": "Fire · Wind",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "GVfiZ",
+                  "name": "t3",
+                  "fill": "#1A1209",
+                  "content": "Uchiha Clan",
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "IcUfS",
+                  "name": "r3",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#C8B89A"
+                },
+                {
+                  "type": "text",
+                  "id": "bUL9U",
+                  "name": "n3",
+                  "fill": "#6B5B45",
+                  "content": "Old-style editorial.\nHigh contrast strokes.\nVery refined, scroll-like.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XMgHS",
+              "name": "c4",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFCF5",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w1jgt",
+                  "name": "l4",
+                  "fill": "#C8B89A",
+                  "content": "④ Playfair Display",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "EmyMp",
+                  "name": "h4",
+                  "fill": "#1A1209",
+                  "content": "NINJOKU",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "PZMDm",
+                  "name": "s4",
+                  "fill": "#6B5B45",
+                  "content": "PREVIOUS GUESSES",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "FdPeN",
+                  "name": "d4",
+                  "fill": "#1A1209",
+                  "content": "Konoha · Jonin",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NTcVA",
+                  "name": "e4",
+                  "fill": "#1A1209",
+                  "content": "Fire · Wind",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zXl1Q",
+                  "name": "t4",
+                  "fill": "#1A1209",
+                  "content": "Uchiha Clan",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "waRJw",
+                  "name": "r4",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#C8B89A"
+                },
+                {
+                  "type": "text",
+                  "id": "zA5gn",
+                  "name": "n4",
+                  "fill": "#6B5B45",
+                  "content": "Classic editorial serif.\nBold contrast, strong.\nGreat for headings.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t0d1M",
+              "name": "c5",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFCF5",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5K5dQ",
+                  "name": "l5",
+                  "fill": "#C8B89A",
+                  "content": "⑤ IM Fell English",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "O5L8i",
+                  "name": "h5",
+                  "fill": "#1A1209",
+                  "content": "NINJOKU",
+                  "fontFamily": "IM Fell English",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "NCymY",
+                  "name": "s5",
+                  "fill": "#6B5B45",
+                  "content": "PREVIOUS GUESSES",
+                  "fontFamily": "IM Fell English",
+                  "fontSize": 10,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "craR0",
+                  "name": "d5",
+                  "fill": "#1A1209",
+                  "content": "Konoha · Jonin",
+                  "fontFamily": "IM Fell English",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "78rWk",
+                  "name": "e5",
+                  "fill": "#1A1209",
+                  "content": "Fire · Wind",
+                  "fontFamily": "IM Fell English",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VfvUO",
+                  "name": "t5",
+                  "fill": "#1A1209",
+                  "content": "Uchiha Clan",
+                  "fontFamily": "IM Fell English",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "HwuaE",
+                  "name": "r5",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#C8B89A"
+                },
+                {
+                  "type": "text",
+                  "id": "LXY7o",
+                  "name": "n5",
+                  "fill": "#6B5B45",
+                  "content": "Aged manuscript feel.\nImperfect, organic.\nStrong scroll character.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "KlIQD",
+      "x": 0,
+      "y": 0,
+      "fill": "#000000",
+      "content": "584284",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal"
     }
   ]
 }

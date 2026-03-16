@@ -24,7 +24,7 @@ Standalone Naruto-themed daily puzzle web game ("dle") with three game modes. Bu
 - **Text primary**: `#1A1209`
 - **Text muted**: `#6B5B45` / `#5C4A35`
 - **Border**: `#C8B89A`
-- **Fonts**: Inter (UI), JetBrains Mono (data/numbers)
+- **Fonts**: Teko (all UI text — logo, headers, body, buttons), JetBrains Mono (data/numbers). Loaded via `@fontsource` (self-hosted, no Google Fonts dependency).
 - **Dark theme**: designed but Konoha Scroll (light) is the primary
 
 ## Screens Designed

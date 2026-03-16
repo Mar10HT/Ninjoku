@@ -58,7 +58,11 @@ export function ModeSelect() {
           accentClass="border-accent"
           accentTextClass="text-accent"
           description="Guess the daily mystery ninja. Color feedback guides you to the answer."
-          badge={null}
+          badge={
+            <span className="px-2 py-0.5 text-[10px] font-display tracking-wider rounded-full bg-accent text-white">
+              RECOMMENDED
+            </span>
+          }
           toggle={<DifficultyToggle value={classicDiff} onChange={setClassicDiff} />}
           onPlay={() => navigate('/classic')}
           entranceDelay={80}

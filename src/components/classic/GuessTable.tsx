@@ -31,11 +31,13 @@ export function GuessTable({ guesses }: Props) {
         <table className="w-full border-collapse text-xs">
           <thead>
             <tr>
-              {HEADERS.map((h) => (
+              {HEADERS.map((h, i) => (
                 <th
                   key={h}
                   scope="col"
-                  className="font-display text-xs tracking-wider text-muted uppercase px-2 py-2.5 text-center border-b border-border bg-bg whitespace-nowrap"
+                  className={`font-display text-xs tracking-wider uppercase px-2 py-2.5 text-center border-b border-border bg-bg whitespace-nowrap ${
+                    i === 0 ? 'text-ink font-bold' : 'text-muted'
+                  }`}
                 >
                   {h}
                 </th>

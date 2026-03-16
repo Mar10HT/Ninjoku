@@ -41,6 +41,40 @@ function pickN<T>(arr: T[], n: number, rand: () => number): T[] {
   return copy.slice(0, n);
 }
 
+// Rejects pairs where one criterion is almost a subset of the other (>90% overlap
+// in either direction), which would make cells trivially easy.
+function isRedundantPair(a: Criterion, b: Criterion, characters: Character[]): boolean {
+  const aCount = characters.filter(a.matches).length;
+  const bCount = characters.filter(b.matches).length;
+  if (aCount === 0 || bCount === 0) return true;
+  const intersection = characters.filter(c => a.matches(c) && b.matches(c)).length;
+  return intersection / aCount > 0.9 || intersection / bCount > 0.9;
+}
+
+// Verifies that 9 distinct characters can cover all 9 cells simultaneously
+// using augmenting-path bipartite matching (cells ↔ characters).
+function hasPerfectMatching(pools: Character[][]): boolean {
+  const charToCell = new Map<number, number>();
+
+  function tryAugment(cellIdx: number, visited: Set<number>): boolean {
+    for (const char of pools[cellIdx]) {
+      if (visited.has(char.id)) continue;
+      visited.add(char.id);
+      const prev = charToCell.get(char.id);
+      if (prev === undefined || tryAugment(prev, visited)) {
+        charToCell.set(char.id, cellIdx);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  for (let i = 0; i < pools.length; i++) {
+    if (!tryAugment(i, new Set())) return false;
+  }
+  return true;
+}
+
 export function getDailyGrid(characters: Character[]): DailyGrid {
   const now = new Date();
   const seed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
@@ -60,18 +94,29 @@ export function getDailyGrid(characters: Character[]): DailyGrid {
     const cols = pickN(colPool, 3, rand);
 
     let valid = true;
-    for (const row of rows) {
-      for (const col of cols) {
-        // Require at least 3 valid characters per cell so no combo is trivially empty or near-impossible
-        if (getIntersection(row, col, characters).length < 3) {
+    const cellPools: Character[][] = [];
+
+    for (let ri = 0; ri < rows.length; ri++) {
+      for (let ci = 0; ci < cols.length; ci++) {
+        if (isRedundantPair(rows[ri], cols[ci], characters)) {
           valid = false;
           break;
         }
+        const pool = getIntersection(rows[ri], cols[ci], characters);
+        // Require at least 3 valid characters per cell so no combo is trivially empty or near-impossible
+        if (pool.length < 3) {
+          valid = false;
+          break;
+        }
+        cellPools.push(pool);
       }
       if (!valid) break;
     }
 
-    if (valid) return { rows, cols };
+    if (!valid) continue;
+    if (!hasPerfectMatching(cellPools)) continue;
+
+    return { rows, cols };
   }
 
   // Guaranteed fallback

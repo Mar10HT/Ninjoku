@@ -46,7 +46,7 @@ export function Home() {
       {/* Logo */}
       <h1
         className="font-display font-bold text-6xl md:text-8xl text-ink tracking-widest mb-2 leading-none animate-fade-up"
-        style={{ animationDelay: '80ms' }}
+        style={{ animationDelay: '120ms' }}
       >
         NARUTODLE
       </h1>
@@ -54,7 +54,7 @@ export function Home() {
       {/* Subtitle */}
       <p
         className="font-body text-base text-muted mb-10 tracking-wide animate-fade-up"
-        style={{ animationDelay: '160ms' }}
+        style={{ animationDelay: '240ms' }}
       >
         Guess the hidden ninja
       </p>
@@ -62,7 +62,7 @@ export function Home() {
       {/* Buttons */}
       <div
         className="flex flex-col items-center gap-3 w-full max-w-xs animate-fade-up"
-        style={{ animationDelay: '240ms' }}
+        style={{ animationDelay: '380ms' }}
       >
         <button
           onClick={() => navigate('/play')}
@@ -83,7 +83,7 @@ export function Home() {
       {/* Stats row */}
       <div
         className="flex gap-8 mt-12 border-t border-border pt-8 animate-fade-up"
-        style={{ animationDelay: '360ms' }}
+        style={{ animationDelay: '520ms' }}
       >
         {[
           { label: 'Current day', value: String(day) },

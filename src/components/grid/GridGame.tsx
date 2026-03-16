@@ -8,8 +8,9 @@ import { getTodayKey } from '../../lib/seed';
 import { CharacterSearch } from '../shared/CharacterSearch';
 import { GridCell, type CellState } from './GridCell';
 import charactersData from '../../data/characters.json';
+import { BORUTO_ARCS } from '../../lib/arc-order';
 
-const characters = charactersData as Character[];
+const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
 
 interface CellData {
   status: 'empty' | 'correct' | 'wrong';
@@ -77,7 +78,8 @@ export function GridGame() {
     const valid = rows[row].matches(character) && cols[col].matches(character);
 
     if (valid) {
-      const eligible = getIntersection(rows[row], cols[col], characters);
+      const eligible = getIntersection(rows[row], cols[col], characters)
+        .filter(c => !usedIds.includes(c.id));
       const rarity = Math.max(1, Math.round((1 / eligible.length) * 100));
       const newCells = cells.map(r => r.map(c => ({ ...c })));
       newCells[row][col] = { status: 'correct', character, rarity };
@@ -134,7 +136,7 @@ export function GridGame() {
           <div />
           {cols.map(col => (
             <div key={col.id} className="flex items-center justify-center px-1 py-1">
-              <span className="font-display text-xs tracking-wide text-muted uppercase text-center leading-tight">
+              <span className="inline-block px-2 py-1 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase text-center leading-tight font-semibold">
                 {col.label}
               </span>
             </div>
@@ -145,7 +147,7 @@ export function GridGame() {
         {rows.map((rowCrit, ri) => (
           <div key={rowCrit.id} className="grid grid-cols-[96px_1fr_1fr_1fr] gap-2 mb-2">
             <div className="flex items-center justify-end pr-2">
-              <span className="font-display text-xs tracking-wide text-muted uppercase text-right leading-tight">
+              <span className="inline-block px-2 py-1 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase text-right leading-tight font-semibold">
                 {rowCrit.label}
               </span>
             </div>
@@ -182,8 +184,10 @@ export function GridGame() {
       {/* Search area */}
       {gameState === 'playing' && activeCell && (
         <div className="w-full max-w-md">
-          <p className="font-display text-xs text-muted text-center mb-2 uppercase tracking-wider">
-            {rows[activeCell[0]].label} × {cols[activeCell[1]].label}
+          <p className="flex items-center justify-center gap-1.5 mb-2">
+            <span className="px-2 py-0.5 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase font-semibold">{rows[activeCell[0]].label}</span>
+            <span className="font-mono text-xs text-muted">×</span>
+            <span className="px-2 py-0.5 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase font-semibold">{cols[activeCell[1]].label}</span>
           </p>
           <CharacterSearch
             characters={characters}
@@ -195,7 +199,7 @@ export function GridGame() {
 
       {gameState === 'playing' && !activeCell && !wrongFlash && (
         <p className="font-body text-sm text-muted opacity-60">
-          Click a cell to start guessing.
+          Select a cell to place your ninja.
         </p>
       )}
       {wrongFlash && difficulty === 'casual' && (
@@ -206,12 +210,12 @@ export function GridGame() {
 
       {gameState === 'won' && (
         <p className="font-display text-lg text-match font-bold tracking-wide">
-          Grid complete! 🎉 Redirecting...
+          Mission complete! 🎉
         </p>
       )}
       {gameState === 'lost' && (
         <p className="font-display text-lg text-miss font-bold tracking-wide">
-          Game over! Redirecting...
+          Mission failed.
         </p>
       )}
     </div>

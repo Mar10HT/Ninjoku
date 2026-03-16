@@ -7,8 +7,9 @@ import { compareCharacters } from '../../lib/feedback';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { CharacterSearch } from '../shared/CharacterSearch';
 import { GuessTable, type GuessEntry } from './GuessTable';
+import { BORUTO_ARCS } from '../../lib/arc-order';
 
-const characters = charactersData as Character[];
+const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
 
 type GameState = 'playing' | 'won' | 'lost';
 
@@ -98,12 +99,12 @@ export function ClassicGame() {
       )}
       {gameState === 'won' && (
         <p className="font-display text-lg text-match font-bold tracking-wide">
-          You got it! 🎉 Redirecting...
+          You found the ninja! 🎉
         </p>
       )}
       {gameState === 'lost' && (
         <p className="font-display text-lg text-miss font-bold tracking-wide">
-          Better luck tomorrow! Redirecting...
+          Mission failed. Return at dawn.
         </p>
       )}
 
@@ -124,7 +125,7 @@ export function ClassicGame() {
 
       {guesses.length === 0 && gameState === 'playing' && (
         <p className="text-muted font-body text-sm opacity-60">
-          Type a character name above to start guessing.
+          Name the hidden ninja.
         </p>
       )}
     </div>
