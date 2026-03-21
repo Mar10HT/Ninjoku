@@ -119,6 +119,7 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
                 src={char.image}
                 alt={char.name}
                 loading="lazy"
+                decoding="async"
                 className="w-8 h-8 rounded-full object-cover bg-border flex-shrink-0"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = '/placeholder.svg';

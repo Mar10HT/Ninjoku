@@ -7,11 +7,8 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { getTodayKey } from '../../lib/seed';
 import { CharacterSearch } from '../shared/CharacterSearch';
 import { GridCell, type CellState } from './GridCell';
-import charactersData from '../../data/characters.json';
-import { BORUTO_ARCS } from '../../lib/arc-order';
 import { RESULTS_NAVIGATE_DELAY_MS } from '../../lib/constants';
-
-const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
+import { characters } from '../../data/characters-filtered';
 
 interface CellData {
   status: 'empty' | 'correct' | 'wrong';

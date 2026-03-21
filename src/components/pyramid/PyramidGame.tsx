@@ -6,11 +6,8 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { getTodayKey } from '../../lib/seed';
 import { CharacterSearch } from '../shared/CharacterSearch';
 import { PyramidCell, type PyramidCellState } from './PyramidCell';
-import charactersData from '../../data/characters.json';
-import { BORUTO_ARCS } from '../../lib/arc-order';
 import { RESULTS_NAVIGATE_DELAY_MS } from '../../lib/constants';
-
-const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
+import { characters } from '../../data/characters-filtered';
 
 // Row sizes: rows[0] = top = 1 cell, rows[3] = bottom = 4 cells
 const ROW_SIZES = [1, 2, 3, 4];

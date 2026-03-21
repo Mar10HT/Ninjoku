@@ -22,6 +22,8 @@ export function PyramidCell({ state, onClick }: Props) {
         <img
           src={state.character.image}
           alt={state.character.name}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover object-top"
           onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
         />

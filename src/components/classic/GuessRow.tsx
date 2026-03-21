@@ -17,6 +17,7 @@ export function GuessRow({ character, feedback }: Props) {
             src={character.image}
             alt={character.name}
             loading="lazy"
+            decoding="async"
             className="w-9 h-9 rounded-full object-cover bg-border flex-shrink-0"
             onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
           />

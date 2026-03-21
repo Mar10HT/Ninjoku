@@ -1,16 +1,13 @@
 import { useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import charactersData from '../../data/characters.json';
 import type { Character } from '../../types/character';
 import { getDailyCharacter, getTodayKey } from '../../lib/seed';
 import { compareCharacters } from '../../lib/feedback';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { CharacterSearch } from '../shared/CharacterSearch';
 import { GuessTable, type GuessEntry } from './GuessTable';
-import { BORUTO_ARCS } from '../../lib/arc-order';
 import { CLASSIC_CASUAL_GUESSES, RESULTS_NAVIGATE_DELAY_MS } from '../../lib/constants';
-
-const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
+import { characters } from '../../data/characters-filtered';
 
 type GameState = 'playing' | 'won' | 'lost';
 
