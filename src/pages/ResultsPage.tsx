@@ -12,24 +12,23 @@ interface ResultsState {
   score?: number;
 }
 
+function computeCountdown(): string {
+  const now = new Date();
+  const midnight = new Date();
+  midnight.setHours(24, 0, 0, 0);
+  const diff = midnight.getTime() - now.getTime();
+  const h = Math.floor(diff / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  const s = Math.floor((diff % 60000) / 1000);
+  return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+
 function useCountdown(): string {
-  const [label, setLabel] = useState('');
+  // Lazy initializer avoids empty-string flash on first render
+  const [label, setLabel] = useState(computeCountdown);
 
   useEffect(() => {
-    function update() {
-      const now = new Date();
-      const midnight = new Date();
-      midnight.setHours(24, 0, 0, 0);
-      const diff = midnight.getTime() - now.getTime();
-      const h = Math.floor(diff / 3600000);
-      const m = Math.floor((diff % 3600000) / 60000);
-      const s = Math.floor((diff % 60000) / 1000);
-      setLabel(
-        `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`,
-      );
-    }
-    update();
-    const id = setInterval(update, 1000);
+    const id = setInterval(() => setLabel(computeCountdown()), 1000);
     return () => clearInterval(id);
   }, []);
 

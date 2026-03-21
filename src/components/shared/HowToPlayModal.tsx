@@ -2,9 +2,10 @@ import { useState, useRef, useEffect } from 'react';
 
 interface Props {
   onClose: () => void;
+  initialTab?: Tab;
 }
 
-type Tab = 'classic' | 'grid' | 'pyramid';
+export type Tab = 'classic' | 'grid' | 'pyramid';
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'classic', label: 'Classic' },
@@ -105,8 +106,8 @@ function PyramidRules() {
   );
 }
 
-export function HowToPlayModal({ onClose }: Props) {
-  const [tab, setTab] = useState<Tab>('classic');
+export function HowToPlayModal({ onClose, initialTab = 'classic' }: Props) {
+  const [tab, setTab] = useState<Tab>(initialTab);
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Focus trap + Escape key
