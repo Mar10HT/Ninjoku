@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useLocation, useNavigate, Navigate } from 'react-router-dom';
 import type { Character } from '../types/character';
 import { Navbar } from '../components/layout/Navbar';
+import { getTodayKey } from '../lib/seed';
 
 interface ResultsState {
   won: boolean;
@@ -35,6 +36,71 @@ function useCountdown(): string {
   return label;
 }
 
+/** Visual summary of today's Grid result (reads from localStorage). */
+function GridSummary() {
+  const key = `narutodle_grid_${getTodayKey()}`;
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const { cells } = JSON.parse(raw) as { cells: { status: string }[][] };
+    return (
+      <div className="grid grid-cols-3 gap-1.5">
+        {cells.map((row, ri) =>
+          row.map((cell, ci) => (
+            <div
+              key={`${ri}-${ci}`}
+              className={`w-10 h-10 rounded-lg flex items-center justify-center text-sm font-bold ${
+                cell.status === 'correct'
+                  ? 'bg-match text-white'
+                  : 'bg-miss/10 border border-miss/40 text-miss'
+              }`}
+            >
+              {cell.status === 'correct' ? '✓' : '✗'}
+            </div>
+          ))
+        )}
+      </div>
+    );
+  } catch {
+    return null;
+  }
+}
+
+/** Visual summary of today's Pyramid result (reads from localStorage). */
+function PyramidSummary({ score }: { score: number }) {
+  const key = `narutodle_pyramid_${getTodayKey()}`;
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const { cells } = JSON.parse(raw) as { cells: { status: string }[][] };
+    return (
+      <div className="flex flex-col items-center gap-2">
+        {cells.map((row, ri) => (
+          <div key={ri} className="flex gap-1.5 justify-center">
+            {row.map((cell, ci) => (
+              <div
+                key={ci}
+                className={`w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold ${
+                  cell.status === 'correct'
+                    ? 'bg-match text-white'
+                    : cell.status === 'wrong'
+                      ? 'bg-miss text-white'
+                      : 'bg-border/40 text-muted'
+                }`}
+              >
+                {cell.status === 'correct' ? '✓' : cell.status === 'wrong' ? '✗' : '·'}
+              </div>
+            ))}
+          </div>
+        ))}
+        <p className="font-mono text-sm font-bold text-ink mt-1">{score} pts total</p>
+      </div>
+    );
+  } catch {
+    return null;
+  }
+}
+
 export function ResultsPage() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -55,10 +121,16 @@ export function ResultsPage() {
     try {
       const statsKey = `narutodle_stats_${state.mode}`;
       const raw = localStorage.getItem(statsKey);
-      const prev = raw ? (JSON.parse(raw) as { played?: number; totalGuesses?: number }) : {};
+      const prev = raw ? (JSON.parse(raw) as { played?: number; totalGuesses?: number; totalScore?: number }) : {};
       const played = (prev.played ?? 0) + 1;
-      const totalGuesses = (prev.totalGuesses ?? 0) + state.guesses;
-      localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses }));
+      if (state.mode === 'pyramid' && state.score !== undefined) {
+        // Track total score for pyramid avg display
+        const totalScore = (prev.totalScore ?? 0) + state.score;
+        localStorage.setItem(statsKey, JSON.stringify({ played, totalScore }));
+      } else {
+        const totalGuesses = (prev.totalGuesses ?? 0) + state.guesses;
+        localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses }));
+      }
     } catch {
       // ignore
     }
@@ -69,6 +141,9 @@ export function ResultsPage() {
   if (!state) return <Navigate to="/" replace />;
 
   const { won, character, guesses, maxGuesses, mode, score } = state;
+
+  // Whether a visual summary card is shown (affects animation timing)
+  const hasCard = !!character || mode === 'grid' || mode === 'pyramid';
 
   function handleShare() {
     const emoji = won ? '✅' : '❌';
@@ -136,7 +211,7 @@ export function ResultsPage() {
           {renderSubtitle()}
         </div>
 
-        {/* Answer card — only for Classic mode (character is not null) */}
+        {/* Answer card — Classic mode */}
         {character && (
           <div
             className="flex flex-col items-center gap-3 bg-surface border border-border rounded-xl p-6 w-full max-w-xs animate-fade-up"
@@ -155,10 +230,32 @@ export function ResultsPage() {
           </div>
         )}
 
+        {/* Grid visual summary */}
+        {mode === 'grid' && (
+          <div
+            className="flex flex-col items-center gap-3 bg-surface border border-border rounded-xl p-6 w-full max-w-xs animate-fade-up"
+            style={{ animationDelay: '220ms' }}
+          >
+            <p className="font-display text-xs tracking-widest text-muted uppercase">Your grid</p>
+            <GridSummary />
+          </div>
+        )}
+
+        {/* Pyramid visual summary */}
+        {mode === 'pyramid' && (
+          <div
+            className="flex flex-col items-center gap-3 bg-surface border border-border rounded-xl p-6 w-full max-w-xs animate-fade-up"
+            style={{ animationDelay: '220ms' }}
+          >
+            <p className="font-display text-xs tracking-widest text-muted uppercase">Your pyramid</p>
+            <PyramidSummary score={score ?? 0} />
+          </div>
+        )}
+
         {/* Countdown */}
         <div
           className="text-center animate-fade-up"
-          style={{ animationDelay: character ? '380ms' : '220ms' }}
+          style={{ animationDelay: hasCard ? '380ms' : '220ms' }}
         >
           <p className="font-body text-xs text-muted uppercase tracking-widest mb-1">
             Next challenge in
@@ -169,7 +266,7 @@ export function ResultsPage() {
         {/* Actions */}
         <div
           className="flex flex-col gap-3 w-full max-w-xs animate-fade-up"
-          style={{ animationDelay: character ? '480ms' : '320ms' }}
+          style={{ animationDelay: hasCard ? '480ms' : '320ms' }}
         >
           <button
             onClick={handleShare}
