@@ -133,11 +133,14 @@ export function GridGame() {
       {/* Grid */}
       <div className="w-full">
         {/* Column headers */}
-        <div className="grid grid-cols-[96px_1fr_1fr_1fr] gap-2 mb-1">
+        <div className="grid grid-cols-[minmax(60px,96px)_1fr_1fr_1fr] gap-2 mb-1">
           <div />
           {cols.map(col => (
             <div key={col.id} className="flex items-center justify-center px-1 py-1">
-              <span className="inline-block px-2 py-1 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase text-center leading-tight font-semibold">
+              <span
+                title={col.label}
+                className="inline-block px-2 py-1 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase text-center leading-tight font-semibold line-clamp-2 break-words"
+              >
                 {col.label}
               </span>
             </div>
@@ -146,9 +149,12 @@ export function GridGame() {
 
         {/* Rows */}
         {rows.map((rowCrit, ri) => (
-          <div key={rowCrit.id} className="grid grid-cols-[96px_1fr_1fr_1fr] gap-2 mb-2">
+          <div key={rowCrit.id} className="grid grid-cols-[minmax(60px,96px)_1fr_1fr_1fr] gap-2 mb-2">
             <div className="flex items-center justify-end pr-2">
-              <span className="inline-block px-2 py-1 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase text-right leading-tight font-semibold">
+              <span
+                title={rowCrit.label}
+                className="inline-block px-2 py-1 rounded-full bg-border/30 font-display text-xs tracking-wide text-ink uppercase text-right leading-tight font-semibold line-clamp-2 break-words"
+              >
                 {rowCrit.label}
               </span>
             </div>
