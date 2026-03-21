@@ -119,7 +119,7 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
                 loading="lazy"
                 className="w-8 h-8 rounded-full object-cover bg-border flex-shrink-0"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://placehold.co/32x32/C8B89A/1A1209?text=?';
+                  (e.target as HTMLImageElement).src = '/placeholder.svg';
                 }}
               />
               <span className="font-body text-sm text-ink">{char.name}</span>

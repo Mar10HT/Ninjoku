@@ -18,10 +18,7 @@ export function GuessRow({ character, feedback }: Props) {
             alt={character.name}
             loading="lazy"
             className="w-9 h-9 rounded-full object-cover bg-border flex-shrink-0"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src =
-                'https://placehold.co/36x36/C8B89A/1A1209?text=?';
-            }}
+            onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
           />
           <span className="font-body text-sm text-ink leading-tight">{character.name}</span>
         </div>

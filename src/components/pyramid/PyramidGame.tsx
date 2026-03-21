@@ -35,6 +35,8 @@ export function PyramidGame() {
 
   const [stored, setStored] = useLocalStorage<StoredPyramidState | null>(storageKey, null);
   const [activeCell, setActiveCell] = useState<[number, number] | null>(null);
+  // Pending guess: character selected but not yet confirmed (prevents accidental submissions)
+  const [pendingGuess, setPendingGuess] = useState<Character | null>(null);
 
   const initialCells: CellData[][] = ROW_SIZES.map(size =>
     Array(size).fill(null).map(() => ({ status: 'pending' as const })),
@@ -73,13 +75,16 @@ export function PyramidGame() {
     // Toggle: clicking the active cell deselects it
     if (activeCell?.[0] === row && activeCell?.[1] === col) {
       setActiveCell(null);
+      setPendingGuess(null);
     } else {
       setActiveCell([row, col]);
+      setPendingGuess(null); // reset pending when switching cells
     }
   }
 
   function handleGuess(character: Character) {
     if (!activeCell || finished) return;
+    setPendingGuess(null);
     const [row, col] = activeCell;
 
     const criterion = criteria[row];
@@ -179,8 +184,8 @@ export function PyramidGame() {
         })}
       </div>
 
-      {/* Search */}
-      {!finished && activeCell && (
+      {/* Search / confirm */}
+      {!finished && activeCell && !pendingGuess && (
         <div className="w-full max-w-md">
           <p className="font-display text-xs text-muted text-center mb-2 uppercase tracking-wider">
             Must match: <span className="text-ink">{criteria[activeCell[0]].label}</span>
@@ -188,8 +193,40 @@ export function PyramidGame() {
           <CharacterSearch
             characters={characters}
             excluded={usedIds}
-            onSelect={handleGuess}
+            onSelect={setPendingGuess}
           />
+        </div>
+      )}
+
+      {/* Confirm step — prevents accidental permanent guesses */}
+      {!finished && activeCell && pendingGuess && (
+        <div className="w-full max-w-md bg-surface border border-border rounded-lg p-4 flex flex-col gap-3 animate-slide-up-scale">
+          <div className="flex items-center gap-3">
+            <img
+              src={pendingGuess.image}
+              alt={pendingGuess.name}
+              className="w-10 h-10 rounded-full object-cover bg-border flex-shrink-0"
+              onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
+            />
+            <div className="flex-1 min-w-0">
+              <p className="font-body text-sm font-bold text-ink truncate">{pendingGuess.name}</p>
+              <p className="font-mono text-xs text-miss">This guess is permanent.</p>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={() => handleGuess(pendingGuess)}
+              className="flex-1 py-2 bg-accent text-white font-display font-bold text-xs tracking-widest rounded-lg hover:bg-accent/90 transition-colors"
+            >
+              CONFIRM
+            </button>
+            <button
+              onClick={() => setPendingGuess(null)}
+              className="flex-1 py-2 border border-border text-muted font-display font-bold text-xs tracking-widest rounded-lg hover:border-ink hover:text-ink transition-colors"
+            >
+              CANCEL
+            </button>
+          </div>
         </div>
       )}
 

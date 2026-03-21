@@ -23,7 +23,7 @@ export function GridCell({ state, onClick }: Props) {
           src={state.character.image}
           alt={state.character.name}
           className="w-full h-full object-cover object-top"
-          onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/60x60/C8B89A/1A1209?text=?'; }}
+          onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
         />
         {/* Name overlay */}
         <div className="absolute bottom-0 left-0 right-0 bg-match/80 px-1 py-0.5">

@@ -147,10 +147,7 @@ export function ResultsPage() {
               src={character.image}
               alt={character.name}
               className="w-20 h-20 rounded-full object-cover bg-border"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src =
-                  'https://placehold.co/80x80/C8B89A/1A1209?text=?';
-              }}
+              onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
             />
             <p className="font-display font-bold text-xl text-ink tracking-wide text-center">
               {character.name}
