@@ -8,6 +8,7 @@ import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { CharacterSearch } from '../shared/CharacterSearch';
 import { GuessTable, type GuessEntry } from './GuessTable';
 import { BORUTO_ARCS } from '../../lib/arc-order';
+import { CLASSIC_CASUAL_GUESSES, RESULTS_NAVIGATE_DELAY_MS } from '../../lib/constants';
 
 const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
 
@@ -25,7 +26,7 @@ export function ClassicGame() {
   const storageKey = `narutodle_classic_${todayKey}`;
 
   const difficulty = useLocalStorage<'casual' | 'pro'>('narutodle_difficulty_classic', 'casual')[0];
-  const maxGuesses = difficulty === 'pro' ? 1 : 8;
+  const maxGuesses = difficulty === 'pro' ? 1 : CLASSIC_CASUAL_GUESSES;
 
   const target = useMemo(() => getDailyCharacter(characters), []);
 
@@ -83,7 +84,7 @@ export function ClassicGame() {
             mode: 'classic',
           },
         });
-      }, 1200);
+      }, RESULTS_NAVIGATE_DELAY_MS);
     }
   }
 

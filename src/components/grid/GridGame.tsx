@@ -9,6 +9,7 @@ import { CharacterSearch } from '../shared/CharacterSearch';
 import { GridCell, type CellState } from './GridCell';
 import charactersData from '../../data/characters.json';
 import { BORUTO_ARCS } from '../../lib/arc-order';
+import { RESULTS_NAVIGATE_DELAY_MS } from '../../lib/constants';
 
 const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
 
@@ -92,7 +93,7 @@ export function GridGame() {
       if (newState === 'won') {
         setTimeout(() => navigate('/results', {
           state: { won: true, mode: 'grid', guesses: 9, maxGuesses: 9, character: null },
-        }), 1200);
+        }), RESULTS_NAVIGATE_DELAY_MS);
       }
     } else {
       const newWrong = wrongTotal + 1;
@@ -102,7 +103,7 @@ export function GridGame() {
         saveState(newCells, 'lost', newWrong);
         setTimeout(() => navigate('/results', {
           state: { won: false, mode: 'grid', guesses: cells.flat().filter(c => c.status === 'correct').length, maxGuesses: 9, character: null },
-        }), 1200);
+        }), RESULTS_NAVIGATE_DELAY_MS);
       } else {
         setWrongFlash([row, col]);
         saveState(cells, 'playing', newWrong);

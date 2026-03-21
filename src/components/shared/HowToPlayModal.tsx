@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { CLASSIC_CASUAL_GUESSES } from '../../lib/constants';
 
 interface Props {
   onClose: () => void;
@@ -39,7 +40,7 @@ function ClassicRules() {
       </div>
       <div className="border-t border-border pt-3 space-y-1">
         <p className="font-bold">Difficulty</p>
-        <p><strong>Casual:</strong> 8 guesses</p>
+        <p><strong>Casual:</strong> {CLASSIC_CASUAL_GUESSES} guesses</p>
         <p><strong>Pro:</strong> 1 guess — get it right or lose</p>
       </div>
     </div>

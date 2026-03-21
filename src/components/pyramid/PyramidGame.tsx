@@ -8,6 +8,7 @@ import { CharacterSearch } from '../shared/CharacterSearch';
 import { PyramidCell, type PyramidCellState } from './PyramidCell';
 import charactersData from '../../data/characters.json';
 import { BORUTO_ARCS } from '../../lib/arc-order';
+import { RESULTS_NAVIGATE_DELAY_MS } from '../../lib/constants';
 
 const characters = (charactersData as Character[]).filter(c => !BORUTO_ARCS.has(c.arcOfDebut));
 
@@ -107,7 +108,7 @@ export function PyramidGame() {
         const won = newCells.flat().some(c => c.status === 'correct');
         setTimeout(() => navigate('/results', {
           state: { won, mode: 'pyramid', guesses: 10, maxGuesses: 10, character: null, score: newTotal },
-        }), 1200);
+        }), RESULTS_NAVIGATE_DELAY_MS);
       }
     } else {
       newCells[row][col] = { status: 'wrong', character };
@@ -119,7 +120,7 @@ export function PyramidGame() {
         const won = newCells.flat().some(c => c.status === 'correct');
         setTimeout(() => navigate('/results', {
           state: { won, mode: 'pyramid', guesses: 10, maxGuesses: 10, character: null, score: totalScore },
-        }), 1200);
+        }), RESULTS_NAVIGATE_DELAY_MS);
       }
     }
   }
