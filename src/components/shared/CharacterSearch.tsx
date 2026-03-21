@@ -18,8 +18,10 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
     ? []
     : characters.filter((c) => c.name.toLowerCase().includes(query.toLowerCase()));
 
-  const filtered = allMatches.filter((c) => !excluded.includes(c.id)).slice(0, 8);
-  const allExcluded = allMatches.length > 0 && filtered.length === 0;
+  const availableMatches = allMatches.filter((c) => !excluded.includes(c.id));
+  const filtered = availableMatches.slice(0, 8);
+  const hiddenCount = availableMatches.length - filtered.length;
+  const allExcluded = allMatches.length > 0 && availableMatches.length === 0;
   const noResults = query.length > 0 && allMatches.length === 0;
 
   const showDropdown = open && query.length > 0 && (filtered.length > 0 || allExcluded || noResults);
@@ -125,6 +127,16 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
               <span className="font-body text-sm text-ink">{char.name}</span>
             </li>
           ))}
+          {hiddenCount > 0 && (
+            <li
+              role="option"
+              aria-selected={false}
+              aria-disabled="true"
+              className="px-4 py-2.5 text-xs text-muted font-body italic border-t border-border"
+            >
+              +{hiddenCount} more — keep typing to narrow down
+            </li>
+          )}
           {allExcluded && (
             <li
               role="option"

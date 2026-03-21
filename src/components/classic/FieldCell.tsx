@@ -30,6 +30,7 @@ export function FieldCell({ value, feedback, col }: Props) {
 
   return (
     <td
+      title={display}
       className={`${bg} text-white font-body px-2 py-3 text-center align-middle border border-white/20 min-w-[72px] max-w-[120px] animate-flip-in-y`}
       style={{ animationDelay: `${col * 70}ms` }}
     >
