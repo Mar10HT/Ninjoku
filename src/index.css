@@ -24,12 +24,12 @@
   --color-miss: #B91C1C;
 
   /* Custom animations */
-  --animate-flip-in-y: flip-in-y 0.55s cubic-bezier(0.25, 1, 0.5, 1) both;
-  --animate-pop-in: pop-in 0.5s cubic-bezier(0.25, 1, 0.5, 1) both;
+  --animate-flip-in-y: flip-in-y 1.55s cubic-bezier(0.25, 1, 0.5, 1) both;
+  --animate-pop-in: pop-in 1.5s cubic-bezier(0.25, 1, 0.5, 1) both;
   --animate-shake: shake 0.35s cubic-bezier(0.25, 1, 0.5, 1);
   --animate-fade-slide-down: fade-slide-down 0.3s cubic-bezier(0.25, 1, 0.5, 1) both;
-  --animate-fade-in: fade-in 0.4s cubic-bezier(0.25, 1, 0.5, 1) both;
-  --animate-score-pop: score-pop 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  --animate-fade-in: fade-in 1.4s cubic-bezier(0.25, 1, 0.5, 1) both;
+  --animate-score-pop: score-pop 1.6s cubic-bezier(0.25, 1, 0.5, 1);
   /* Page/section entrances */
   --animate-fade-up: fade-up 0.65s cubic-bezier(0.25, 1, 0.5, 1) both;
   --animate-slide-up-scale: slide-up-scale 0.45s cubic-bezier(0.25, 1, 0.5, 1) both;
