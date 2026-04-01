@@ -167,6 +167,30 @@ export function ResultsPage() {
   // Whether a visual summary card is shown (affects animation timing)
   const hasCard = !!character || mode === 'grid' || mode === 'pyramid';
 
+  function buildClassicEmojiGrid(): string {
+    try {
+      const key = `narutodle_classic_${getTodayKey()}`;
+      const raw = localStorage.getItem(key);
+      if (!raw) return '';
+      const { guesses: entries } = JSON.parse(raw) as {
+        guesses: { feedback: Record<string, string> }[];
+      };
+      const FIELDS = ['affiliation', 'clan', 'rank', 'natureType', 'kekkeiGenkai', 'arcOfDebut', 'gender', 'status'];
+      return entries
+        .map((g) =>
+          FIELDS.map((f) => {
+            const v = g.feedback[f];
+            if (v === 'match') return '🟢';
+            if (v === 'partial') return '🟡';
+            return '🔴';
+          }).join('')
+        )
+        .join('\n');
+    } catch {
+      return '';
+    }
+  }
+
   function handleShare() {
     const emoji = won ? '✅' : '❌';
     let text: string;
@@ -175,7 +199,8 @@ export function ResultsPage() {
     } else if (mode === 'pyramid') {
       text = `🎮 NARUTODLE — PYRAMID\n${emoji} Final score: ${score ?? 0} pts!`;
     } else {
-      text = `🎮 NARUTODLE\n${emoji} ${won ? `Got it in ${guesses}/${maxGuesses} guesses!` : `Didn't get it (${guesses}/${maxGuesses} guesses used)`}${character ? `\nThe answer was: ${character.name}` : ''}`;
+      const grid = buildClassicEmojiGrid();
+      text = `🎮 NARUTODLE — CLASSIC\n${emoji} ${won ? `Got it in ${guesses} guess${guesses !== 1 ? 'es' : ''}!` : `Couldn't get it (${guesses} guess${guesses !== 1 ? 'es' : ''} used)`}${grid ? `\n\n${grid}` : ''}`;
     }
     if (navigator.clipboard) {
       navigator.clipboard.writeText(text).then(() => {
