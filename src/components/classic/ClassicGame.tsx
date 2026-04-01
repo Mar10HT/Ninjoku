@@ -1,5 +1,5 @@
-import { useMemo, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useMemo, useEffect, useRef } from 'react';
+import { useNavigate, Navigate } from 'react-router-dom';
 import type { Character } from '../../types/character';
 import { getDailyCharacter, getTodayKey } from '../../lib/seed';
 import { compareCharacters } from '../../lib/feedback';
@@ -36,21 +36,12 @@ export function ClassicGame() {
   const guesses: GuessEntry[] = validStored?.guesses ?? [];
   const gameState: GameState = validStored?.gameState ?? 'playing';
 
-  // If game was already finished (restored from localStorage), navigate immediately
+  const redirectTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   useEffect(() => {
-    if (gameState === 'won' || gameState === 'lost') {
-      navigate('/results', {
-        replace: true,
-        state: {
-          won: gameState === 'won',
-          character: target,
-          guesses: guesses.length,
-          mode: 'classic',
-        },
-      });
-    }
-  // Intentional: run only on mount to redirect if today's game was already finished
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    return () => {
+      if (redirectTimerRef.current !== null) clearTimeout(redirectTimerRef.current);
+    };
   }, []);
 
   function saveState(newGuesses: GuessEntry[], newGameState: GameState) {
@@ -71,7 +62,7 @@ export function ClassicGame() {
     saveState(newGuesses, newState);
 
     if (newState !== 'playing') {
-      setTimeout(() => {
+      redirectTimerRef.current = setTimeout(() => {
         navigate('/results', {
           state: {
             won,
@@ -90,6 +81,17 @@ export function ClassicGame() {
   // Progressive clues unlock after N failed guesses (casual only)
   const showStatusClue = !isPro && failedGuesses >= CLUE_STATUS_AFTER;
   const showAffiliationClue = !isPro && failedGuesses >= CLUE_AFFILIATION_AFTER;
+
+  // Redirect synchronously if today's game was already finished (avoids stale-closure useEffect)
+  if (gameState === 'won' || gameState === 'lost') {
+    return (
+      <Navigate
+        to="/results"
+        replace
+        state={{ won: gameState === 'won', character: target, guesses: guesses.length, mode: 'classic' }}
+      />
+    );
+  }
 
   return (
     <div className="flex flex-col items-center gap-6 px-4 py-6 max-w-5xl mx-auto w-full">
@@ -148,33 +150,20 @@ export function ClassicGame() {
         </div>
       )}
 
-      {gameState === 'won' && (
-        <p className="font-display text-lg text-match font-bold tracking-wide">
-          You found the ninja! 🎉
-        </p>
-      )}
-      {gameState === 'lost' && (
-        <p className="font-display text-lg text-miss font-bold tracking-wide">
-          Mission failed. Return at dawn.
-        </p>
-      )}
-
-      {/* Search input */}
-      {gameState === 'playing' && (
-        <CharacterSearch
-          characters={characters}
-          excluded={excluded}
-          onSelect={handleSelect}
-          disabled={gameState !== 'playing'}
-        />
-      )}
+      {/* Search input — always visible since won/lost redirect before reaching here */}
+      <CharacterSearch
+        characters={characters}
+        excluded={excluded}
+        onSelect={handleSelect}
+        disabled={false}
+      />
 
       {/* Guess table */}
       {guesses.length > 0 && (
         <GuessTable guesses={guesses} />
       )}
 
-      {guesses.length === 0 && gameState === 'playing' && (
+      {guesses.length === 0 && (
         <p className="text-muted font-body text-sm opacity-60">
           Name the hidden ninja.
         </p>

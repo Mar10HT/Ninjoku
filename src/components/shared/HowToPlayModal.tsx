@@ -110,20 +110,21 @@ export function HowToPlayModal({ onClose, initialTab = 'classic' }: Props) {
   const [tab, setTab] = useState<Tab>(initialTab);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Focus trap + Escape key
+  // Restore focus to triggering element when modal closes
   useEffect(() => {
     const previouslyFocused = document.activeElement as HTMLElement | null;
-
-    // Focus first focusable element inside modal
-    const focusable = containerRef.current?.querySelectorAll<HTMLElement>(
-      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
-    );
-    focusable?.[0]?.focus();
-
     return () => {
       previouslyFocused?.focus();
     };
   }, []);
+
+  // Focus first focusable element on open and whenever the tab changes
+  useEffect(() => {
+    const focusable = containerRef.current?.querySelectorAll<HTMLElement>(
+      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
+    );
+    focusable?.[0]?.focus();
+  }, [tab]);
 
   function handleKeyDown(e: React.KeyboardEvent) {
     if (e.key === 'Escape') {

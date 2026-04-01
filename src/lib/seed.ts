@@ -43,6 +43,7 @@ function seededShuffle<T>(arr: T[], seed: number): T[] {
 }
 
 export function getDailyCharacter(chars: Character[]): Character {
+  if (chars.length === 0) throw new Error('getDailyCharacter: character list is empty');
   const dayNum = getDayNumber();
   // Which full cycle we're in determines the shuffle seed,
   // which position within the cycle picks the character.

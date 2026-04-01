@@ -101,10 +101,21 @@ function PyramidSummary({ score }: { score: number }) {
   }
 }
 
+function isResultsState(s: unknown): s is ResultsState {
+  if (!s || typeof s !== 'object') return false;
+  const r = s as Record<string, unknown>;
+  return (
+    typeof r.won === 'boolean' &&
+    typeof r.guesses === 'number' &&
+    typeof r.mode === 'string'
+  );
+}
+
 export function ResultsPage() {
   const location = useLocation();
   const navigate = useNavigate();
-  const state = location.state as ResultsState | null;
+  const rawState = location.state;
+  const state: ResultsState | null = isResultsState(rawState) ? rawState : null;
   const countdown = useCountdown();
   const [copied, setCopied] = useState(false);
   const [copyFailed, setCopyFailed] = useState(false);
@@ -182,6 +193,8 @@ export function ResultsPage() {
             const v = g.feedback[f];
             if (v === 'match') return '🟢';
             if (v === 'partial') return '🟡';
+            if (v === 'higher') return '🔼';
+            if (v === 'lower') return '🔽';
             return '🔴';
           }).join('')
         )
