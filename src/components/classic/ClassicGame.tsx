@@ -89,11 +89,34 @@ export function ClassicGame() {
 
   return (
     <div className="flex flex-col items-center gap-6 px-4 py-6 max-w-5xl mx-auto w-full">
-      {/* Status banner */}
+      {/* Guess counter — shuriken dots */}
       {gameState === 'playing' && (
-        <p className="font-body text-sm text-muted">
-          Guess #{guesses.length + 1} of {maxGuesses}
-        </p>
+        <div className="flex flex-col items-center gap-1.5">
+          <div className="flex gap-1.5">
+            {Array.from({ length: maxGuesses }).map((_, i) => {
+              const used = i < guesses.length;
+              const current = i === guesses.length;
+              return (
+                <span
+                  key={i}
+                  aria-hidden="true"
+                  className={`text-base leading-none transition-all ${
+                    used
+                      ? 'text-miss opacity-60'
+                      : current
+                        ? 'text-accent scale-125'
+                        : 'text-border'
+                  }`}
+                >
+                  ✦
+                </span>
+              );
+            })}
+          </div>
+          <p className="font-body text-xs text-muted">
+            Guess {guesses.length + 1} of {maxGuesses}
+          </p>
+        </div>
       )}
       {gameState === 'won' && (
         <p className="font-display text-lg text-match font-bold tracking-wide">
