@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { ErrorBoundary } from './components/shared/ErrorBoundary';
 
 // Route-based code splitting: each page (and characters.json) loads only when visited.
 // Home, ModeSelect, and ResultsPage do NOT import characters.json — initial bundle stays light.
@@ -20,6 +21,7 @@ function PageLoader() {
 
 export default function App() {
   return (
+    <ErrorBoundary>
     <BrowserRouter>
       <Suspense fallback={<PageLoader />}>
         <Routes>
@@ -33,5 +35,6 @@ export default function App() {
         </Routes>
       </Suspense>
     </BrowserRouter>
+    </ErrorBoundary>
   );
 }

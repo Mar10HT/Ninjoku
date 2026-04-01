@@ -15,7 +15,7 @@ export function PyramidCell({ state, onClick }: Props) {
   if (state.status === 'correct') {
     return (
       <div
-        className="relative w-16 h-16 rounded-lg overflow-hidden border-2 border-match cursor-default animate-pop-in"
+        className="relative aspect-square min-h-[52px] rounded-lg overflow-hidden border-2 border-match cursor-default animate-pop-in"
         role="img"
         aria-label={`${state.character.name} — correct, +${state.score} pts`}
       >
@@ -44,7 +44,7 @@ export function PyramidCell({ state, onClick }: Props) {
   if (state.status === 'wrong') {
     return (
       <div
-        className="relative w-16 h-16 rounded-lg overflow-hidden border-2 border-miss cursor-default animate-fade-in"
+        className="relative aspect-square min-h-[52px] rounded-lg overflow-hidden border-2 border-miss cursor-default animate-fade-in"
         role="img"
         aria-label={`${state.character.name} — wrong`}
       >
@@ -69,7 +69,7 @@ export function PyramidCell({ state, onClick }: Props) {
     return (
       <button
         onClick={onClick}
-        className="flex items-center justify-center border-2 border-accent rounded-lg w-16 h-16 bg-accent/5 transition-all hover:scale-[1.06] active:scale-95"
+        className="flex items-center justify-center border-2 border-accent rounded-lg aspect-square min-h-[52px] bg-accent/5 transition-all hover:scale-[1.06] active:scale-95"
         aria-label="Active cell — type to search"
       >
         <span className="text-accent text-xl font-bold" aria-hidden="true">?</span>
@@ -80,7 +80,7 @@ export function PyramidCell({ state, onClick }: Props) {
   return (
     <button
       onClick={onClick}
-      className="flex items-center justify-center border-2 border-dashed border-border rounded-lg w-16 h-16 opacity-50 hover:opacity-90 hover:border-accent hover:scale-[1.06] transition-all active:scale-95"
+      className="flex items-center justify-center border-2 border-dashed border-border rounded-lg aspect-square min-h-[52px] opacity-50 hover:opacity-90 hover:border-accent hover:scale-[1.06] transition-all active:scale-95"
       aria-label="Pending cell — click to guess"
     >
       <span className="text-muted text-lg" aria-hidden="true">·</span>

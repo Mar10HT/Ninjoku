@@ -101,10 +101,21 @@ function PyramidSummary({ score }: { score: number }) {
   }
 }
 
+function isResultsState(s: unknown): s is ResultsState {
+  if (!s || typeof s !== 'object') return false;
+  const r = s as Record<string, unknown>;
+  return (
+    typeof r.won === 'boolean' &&
+    typeof r.guesses === 'number' &&
+    typeof r.mode === 'string'
+  );
+}
+
 export function ResultsPage() {
   const location = useLocation();
   const navigate = useNavigate();
-  const state = location.state as ResultsState | null;
+  const rawState = location.state;
+  const state: ResultsState | null = isResultsState(rawState) ? rawState : null;
   const countdown = useCountdown();
   const [copied, setCopied] = useState(false);
   const [copyFailed, setCopyFailed] = useState(false);
@@ -121,15 +132,37 @@ export function ResultsPage() {
     try {
       const statsKey = `narutodle_stats_${state.mode}`;
       const raw = localStorage.getItem(statsKey);
-      const prev = raw ? (JSON.parse(raw) as { played?: number; totalGuesses?: number; totalScore?: number }) : {};
+      const prev = raw ? (JSON.parse(raw) as {
+        played?: number;
+        totalGuesses?: number;
+        totalScore?: number;
+        streak?: number;
+        maxStreak?: number;
+        lastWonDate?: string;
+      }) : {};
       const played = (prev.played ?? 0) + 1;
+
+      // Streak: only tracked for Classic and Grid (modes with win/loss)
+      let streak = prev.streak ?? 0;
+      let maxStreak = prev.maxStreak ?? 0;
+      let lastWonDate = prev.lastWonDate;
+      if (state.mode !== 'pyramid' && state.won) {
+        const yesterday = new Date(today);
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
+        streak = lastWonDate === yesterdayStr ? streak + 1 : 1;
+        maxStreak = Math.max(maxStreak, streak);
+        lastWonDate = dateStr;
+      } else if (state.mode !== 'pyramid' && !state.won) {
+        streak = 0;
+      }
+
       if (state.mode === 'pyramid' && state.score !== undefined) {
-        // Track total score for pyramid avg display
         const totalScore = (prev.totalScore ?? 0) + state.score;
         localStorage.setItem(statsKey, JSON.stringify({ played, totalScore }));
       } else {
         const totalGuesses = (prev.totalGuesses ?? 0) + state.guesses;
-        localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses }));
+        localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses, streak, maxStreak, lastWonDate }));
       }
     } catch {
       // ignore
@@ -145,6 +178,32 @@ export function ResultsPage() {
   // Whether a visual summary card is shown (affects animation timing)
   const hasCard = !!character || mode === 'grid' || mode === 'pyramid';
 
+  function buildClassicEmojiGrid(): string {
+    try {
+      const key = `narutodle_classic_${getTodayKey()}`;
+      const raw = localStorage.getItem(key);
+      if (!raw) return '';
+      const { guesses: entries } = JSON.parse(raw) as {
+        guesses: { feedback: Record<string, string> }[];
+      };
+      const FIELDS = ['affiliation', 'clan', 'rank', 'natureType', 'kekkeiGenkai', 'arcOfDebut', 'gender', 'status'];
+      return entries
+        .map((g) =>
+          FIELDS.map((f) => {
+            const v = g.feedback[f];
+            if (v === 'match') return '🟢';
+            if (v === 'partial') return '🟡';
+            if (v === 'higher') return '🔼';
+            if (v === 'lower') return '🔽';
+            return '🔴';
+          }).join('')
+        )
+        .join('\n');
+    } catch {
+      return '';
+    }
+  }
+
   function handleShare() {
     const emoji = won ? '✅' : '❌';
     let text: string;
@@ -153,7 +212,8 @@ export function ResultsPage() {
     } else if (mode === 'pyramid') {
       text = `🎮 NARUTODLE — PYRAMID\n${emoji} Final score: ${score ?? 0} pts!`;
     } else {
-      text = `🎮 NARUTODLE\n${emoji} ${won ? `Got it in ${guesses}/${maxGuesses} guesses!` : `Didn't get it (${guesses}/${maxGuesses} guesses used)`}${character ? `\nThe answer was: ${character.name}` : ''}`;
+      const grid = buildClassicEmojiGrid();
+      text = `🎮 NARUTODLE — CLASSIC\n${emoji} ${won ? `Got it in ${guesses} guess${guesses !== 1 ? 'es' : ''}!` : `Couldn't get it (${guesses} guess${guesses !== 1 ? 'es' : ''} used)`}${grid ? `\n\n${grid}` : ''}`;
     }
     if (navigator.clipboard) {
       navigator.clipboard.writeText(text).then(() => {

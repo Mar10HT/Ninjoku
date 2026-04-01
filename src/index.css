@@ -95,6 +95,16 @@
   }
 }
 
+/* Dark theme overrides — applied when <html data-theme="dark"> */
+[data-theme="dark"] {
+  --color-bg: #1A150E;
+  --color-surface: #221B12;
+  --color-ink: #F5EDD8;
+  --color-muted: #9C8B72;
+  --color-border: #3D3122;
+  --color-partial: #D97706;
+}
+
 @layer base {
   body {
     background-color: var(--color-bg);

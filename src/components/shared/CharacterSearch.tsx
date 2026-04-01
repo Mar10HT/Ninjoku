@@ -14,9 +14,13 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
   const [focusedIndex, setFocusedIndex] = useState(-1);
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // Normalize diacritics so "Choji" matches "Chōji", "Jugo" matches "Jūgo", etc.
+  const normalize = (s: string) =>
+    s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
   const allMatches = query.length < 1
     ? []
-    : characters.filter((c) => c.name.toLowerCase().includes(query.toLowerCase()));
+    : characters.filter((c) => normalize(c.name).includes(normalize(query)));
 
   const availableMatches = allMatches.filter((c) => !excluded.includes(c.id));
   const filtered = availableMatches.slice(0, 8);

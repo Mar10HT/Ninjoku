@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react';
-import { CLASSIC_CASUAL_GUESSES } from '../../lib/constants';
 
 interface Props {
   onClose: () => void;
@@ -40,7 +39,7 @@ function ClassicRules() {
       </div>
       <div className="border-t border-border pt-3 space-y-1">
         <p className="font-bold">Difficulty</p>
-        <p><strong>Casual:</strong> {CLASSIC_CASUAL_GUESSES} guesses</p>
+        <p><strong>Casual:</strong> Unlimited guesses — clues unlock as you play</p>
         <p><strong>Pro:</strong> 1 guess — get it right or lose</p>
       </div>
     </div>
@@ -111,20 +110,21 @@ export function HowToPlayModal({ onClose, initialTab = 'classic' }: Props) {
   const [tab, setTab] = useState<Tab>(initialTab);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Focus trap + Escape key
+  // Restore focus to triggering element when modal closes
   useEffect(() => {
     const previouslyFocused = document.activeElement as HTMLElement | null;
-
-    // Focus first focusable element inside modal
-    const focusable = containerRef.current?.querySelectorAll<HTMLElement>(
-      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
-    );
-    focusable?.[0]?.focus();
-
     return () => {
       previouslyFocused?.focus();
     };
   }, []);
+
+  // Focus first focusable element on open and whenever the tab changes
+  useEffect(() => {
+    const focusable = containerRef.current?.querySelectorAll<HTMLElement>(
+      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
+    );
+    focusable?.[0]?.focus();
+  }, [tab]);
 
   function handleKeyDown(e: React.KeyboardEvent) {
     if (e.key === 'Escape') {
