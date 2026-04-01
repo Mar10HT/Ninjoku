@@ -121,15 +121,37 @@ export function ResultsPage() {
     try {
       const statsKey = `narutodle_stats_${state.mode}`;
       const raw = localStorage.getItem(statsKey);
-      const prev = raw ? (JSON.parse(raw) as { played?: number; totalGuesses?: number; totalScore?: number }) : {};
+      const prev = raw ? (JSON.parse(raw) as {
+        played?: number;
+        totalGuesses?: number;
+        totalScore?: number;
+        streak?: number;
+        maxStreak?: number;
+        lastWonDate?: string;
+      }) : {};
       const played = (prev.played ?? 0) + 1;
+
+      // Streak: only tracked for Classic and Grid (modes with win/loss)
+      let streak = prev.streak ?? 0;
+      let maxStreak = prev.maxStreak ?? 0;
+      let lastWonDate = prev.lastWonDate;
+      if (state.mode !== 'pyramid' && state.won) {
+        const yesterday = new Date(today);
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
+        streak = lastWonDate === yesterdayStr ? streak + 1 : 1;
+        maxStreak = Math.max(maxStreak, streak);
+        lastWonDate = dateStr;
+      } else if (state.mode !== 'pyramid' && !state.won) {
+        streak = 0;
+      }
+
       if (state.mode === 'pyramid' && state.score !== undefined) {
-        // Track total score for pyramid avg display
         const totalScore = (prev.totalScore ?? 0) + state.score;
         localStorage.setItem(statsKey, JSON.stringify({ played, totalScore }));
       } else {
         const totalGuesses = (prev.totalGuesses ?? 0) + state.guesses;
-        localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses }));
+        localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses, streak, maxStreak, lastWonDate }));
       }
     } catch {
       // ignore

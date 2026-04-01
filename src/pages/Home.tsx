@@ -7,13 +7,21 @@ interface ModeStats {
   played: number;
   avgGuesses: string;
   avgScore?: string;
+  streak?: number;
+  maxStreak?: number;
 }
 
 function getModeStats(mode: string): ModeStats {
   try {
     const raw = localStorage.getItem(`narutodle_stats_${mode}`);
     if (!raw) return { played: 0, avgGuesses: '—' };
-    const stats = JSON.parse(raw) as { played?: number; totalGuesses?: number; totalScore?: number };
+    const stats = JSON.parse(raw) as {
+      played?: number;
+      totalGuesses?: number;
+      totalScore?: number;
+      streak?: number;
+      maxStreak?: number;
+    };
     const played = stats.played ?? 0;
     if (played === 0) return { played: 0, avgGuesses: '—' };
     if (mode === 'pyramid' && stats.totalScore !== undefined) {
@@ -22,7 +30,7 @@ function getModeStats(mode: string): ModeStats {
     const avgGuesses = stats.totalGuesses
       ? (stats.totalGuesses / played).toFixed(1)
       : '—';
-    return { played, avgGuesses };
+    return { played, avgGuesses, streak: stats.streak ?? 0, maxStreak: stats.maxStreak ?? 0 };
   } catch {
     return { played: 0, avgGuesses: '—' };
   }
@@ -118,6 +126,12 @@ export function Home() {
                   <>
                     <p className="font-mono text-sm font-bold text-ink mt-1">{stats.avgGuesses}</p>
                     <p className="font-body text-xs text-muted">avg guesses</p>
+                    {(stats.streak ?? 0) > 0 && (
+                      <>
+                        <p className="font-mono text-sm font-bold text-accent mt-1">🔥 {stats.streak}</p>
+                        <p className="font-body text-xs text-muted">streak</p>
+                      </>
+                    )}
                   </>
                 )}
                 {key === 'pyramid' && stats.avgScore && (
