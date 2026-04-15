@@ -14,8 +14,8 @@ export interface GuessFeedback {
   status: FeedbackValue;
 }
 
-// Canonical rank order (ascending)
-const RANK_ORDER = ['Genin', 'Chūnin', 'Jōnin', 'ANBU', 'Kage'];
+// Canonical rank order (ascending) — strings must match characters.json exactly
+const RANK_ORDER = ['Academy Student', 'Genin', 'Chūnin', 'Tokubetsu Jōnin', 'Jōnin', 'Anbu', 'Kage'];
 
 function rankIndex(rank: string): number {
   return RANK_ORDER.indexOf(rank);

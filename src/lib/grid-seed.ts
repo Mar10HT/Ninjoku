@@ -66,6 +66,12 @@ function hasPerfectMatching(pools: Character[][]): boolean {
   return true;
 }
 
+function requireCriterion(id: string): Criterion {
+  const c = CRITERIA_POOL.find(c => c.id === id);
+  if (!c) throw new Error(`getDailyGrid: criterion "${id}" not found in CRITERIA_POOL`);
+  return c;
+}
+
 export function getDailyGrid(characters: Character[]): DailyGrid {
   const now = new Date();
   const seed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
@@ -110,17 +116,17 @@ export function getDailyGrid(characters: Character[]): DailyGrid {
     return { rows, cols };
   }
 
-  // Guaranteed fallback
+  // Guaranteed fallback — requireCriterion throws if an id is ever removed from CRITERIA_POOL
   return {
     rows: [
-      CRITERIA_POOL.find(c => c.id === 'village_konoha')!,
-      CRITERIA_POOL.find(c => c.id === 'village_akatsuki')!,
-      CRITERIA_POOL.find(c => c.id === 'village_suna')!,
+      requireCriterion('village_konoha'),
+      requireCriterion('village_akatsuki'),
+      requireCriterion('village_suna'),
     ],
     cols: [
-      CRITERIA_POOL.find(c => c.id === 'gender_male')!,
-      CRITERIA_POOL.find(c => c.id === 'nature_fire')!,
-      CRITERIA_POOL.find(c => c.id === 'rank_jonin')!,
+      requireCriterion('gender_male'),
+      requireCriterion('nature_fire'),
+      requireCriterion('rank_jonin'),
     ],
   };
 }
