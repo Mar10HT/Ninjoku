@@ -22,6 +22,10 @@ interface StoredGridState {
   wrongTotal: number;
 }
 
+const INITIAL_CELLS: CellData[][] = Array(3).fill(null).map(() =>
+  Array(3).fill(null).map(() => ({ status: 'empty' as const })),
+);
+
 export function GridGame() {
   const navigate = useNavigate();
   const todayKey = getTodayKey();
@@ -34,11 +38,7 @@ export function GridGame() {
   const [activeCell, setActiveCell] = useState<[number, number] | null>(null);
   const [wrongFlash, setWrongFlash] = useState<[number, number] | null>(null);
 
-  const initialCells: CellData[][] = Array(3).fill(null).map(() =>
-    Array(3).fill(null).map(() => ({ status: 'empty' as const })),
-  );
-
-  const cells: CellData[][] = stored?.cells ?? initialCells;
+  const cells: CellData[][] = stored?.cells ?? INITIAL_CELLS;
   const gameState = stored?.gameState ?? 'playing';
   const wrongTotal = stored?.wrongTotal ?? 0;
 
