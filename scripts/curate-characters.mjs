@@ -169,14 +169,14 @@ const STATUS = {
 };
 
 // ─────────────────────────────────────────────
-// ARCOFDBUT FIXES (standardize inconsistent names)
+// ARC_OF_DEBUT FIXES (standardize inconsistent names)
 // ─────────────────────────────────────────────
 const ARC_FIXES = {
   'Sasuke Recovery Mission Arc': 'Sasuke Recovery Arc',
 };
 
 // ─────────────────────────────────────────────
-// ARCOFDBUT for characters with empty debut arc
+// ARC_OF_DEBUT for characters with empty debut arc
 // ─────────────────────────────────────────────
 const ARC_FILL = {
   'Biwako Sarutobi': 'Konoha Crush Arc',       // shown in Nine-Tails attack flashback

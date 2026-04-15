@@ -26,15 +26,11 @@ function compareMulti(guessArr: string[], targetArr: string[]): FeedbackValue {
   if (!guessArr.length || !targetArr.length) return 'none';
 
   const targetSet = new Set(targetArr);
+  const guessSet = new Set(guessArr);
   const matches = guessArr.filter((v) => targetSet.has(v));
 
-  if (matches.length === guessArr.length && guessArr.length === targetArr.length) return 'match';
-  // Exact match: every guess value is in target AND counts are equal
-  if (
-    guessArr.every((v) => targetSet.has(v)) &&
-    targetArr.every((v) => new Set(guessArr).has(v))
-  )
-    return 'match';
+  // Exact match: both sets are equal (every guess value in target and vice versa)
+  if (guessArr.every((v) => targetSet.has(v)) && targetArr.every((v) => guessSet.has(v))) return 'match';
   if (matches.length > 0) return 'partial';
   return 'none';
 }

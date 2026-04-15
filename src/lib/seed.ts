@@ -1,4 +1,5 @@
 import type { Character } from '../types/character';
+import { mulberry32 } from './prng';
 
 const LAUNCH_DATE = new Date('2025-01-01');
 
@@ -17,17 +18,6 @@ export function getDayNumber(): number {
   launch.setHours(0, 0, 0, 0);
   const diff = today.getTime() - launch.getTime();
   return Math.floor(diff / (1000 * 60 * 60 * 24)) + 1;
-}
-
-// Mulberry32 PRNG — same algorithm used in grid-seed for consistency
-function mulberry32(seed: number) {
-  return function () {
-    seed |= 0;
-    seed = (seed + 0x6d2b79f5) | 0;
-    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
 }
 
 // Fisher-Yates shuffle seeded with the epoch cycle number so each
