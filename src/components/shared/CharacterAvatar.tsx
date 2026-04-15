@@ -13,6 +13,8 @@ export function CharacterAvatar({ src, alt, size, className = '' }: Props) {
       alt={alt}
       width={size}
       height={size}
+      loading="lazy"
+      decoding="async"
       className={className}
       onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
     />

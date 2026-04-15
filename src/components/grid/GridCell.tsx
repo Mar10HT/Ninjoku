@@ -1,4 +1,5 @@
 import type { Character } from '../../types/character';
+import { CharacterAvatar } from '../shared/CharacterAvatar';
 
 export type CellState =
   | { status: 'empty' }
@@ -19,13 +20,10 @@ export function GridCell({ state, onClick }: Props) {
         role="img"
         aria-label={`${state.character.name} — correct, ${state.rarity}% rarity`}
       >
-        <img
+        <CharacterAvatar
           src={state.character.image}
           alt={state.character.name}
-          loading="lazy"
-          decoding="async"
           className="w-full h-full object-cover object-top"
-          onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
         />
         {/* Name overlay */}
         <div className="absolute bottom-0 left-0 right-0 bg-match/80 px-1 py-0.5">

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate, Navigate } from 'react-router-dom';
 import type { Character } from '../types/character';
 import { Navbar } from '../components/layout/Navbar';
+import { CharacterAvatar } from '../components/shared/CharacterAvatar';
 import { getTodayKey } from '../lib/seed';
 
 interface ResultsState {
@@ -288,11 +289,10 @@ export function ResultsPage() {
             style={{ animationDelay: '220ms' }}
           >
             <p className="font-display text-xs tracking-widest text-muted uppercase">The answer was</p>
-            <img
+            <CharacterAvatar
               src={character.image}
               alt={character.name}
               className="w-20 h-20 rounded-full object-cover bg-border"
-              onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
             />
             <p className="font-display font-bold text-xl text-ink tracking-wide text-center">
               {character.name}

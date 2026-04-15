@@ -1,4 +1,5 @@
 import type { Character } from '../../types/character';
+import { CharacterAvatar } from '../shared/CharacterAvatar';
 
 export type PyramidCellState =
   | { status: 'pending' }
@@ -19,13 +20,10 @@ export function PyramidCell({ state, onClick }: Props) {
         role="img"
         aria-label={`${state.character.name} — correct, +${state.score} pts`}
       >
-        <img
+        <CharacterAvatar
           src={state.character.image}
           alt={state.character.name}
-          loading="lazy"
-          decoding="async"
           className="w-full h-full object-cover object-top"
-          onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
         />
         {/* Name overlay */}
         <div className="absolute bottom-0 left-0 right-0 bg-match/80 px-1 py-0.5">
@@ -48,11 +46,10 @@ export function PyramidCell({ state, onClick }: Props) {
         role="img"
         aria-label={`${state.character.name} — wrong`}
       >
-        <img
+        <CharacterAvatar
           src={state.character.image}
           alt={state.character.name}
           className="w-full h-full object-cover object-top opacity-60"
-          onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
         />
         {/* Name overlay */}
         <div className="absolute bottom-0 left-0 right-0 bg-miss/80 px-1 py-0.5">
