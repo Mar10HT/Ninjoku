@@ -130,9 +130,7 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
           ))}
           {hiddenCount > 0 && (
             <li
-              role="option"
-              aria-selected={false}
-              aria-disabled="true"
+              role="presentation"
               className="px-4 py-2.5 text-xs text-muted font-body italic border-t border-border"
             >
               +{hiddenCount} more — keep typing to narrow down
@@ -140,9 +138,7 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
           )}
           {allExcluded && (
             <li
-              role="option"
-              aria-selected={false}
-              aria-disabled="true"
+              role="presentation"
               className="px-4 py-2.5 text-xs text-muted font-body italic"
             >
               Already guessed
@@ -150,9 +146,7 @@ export function CharacterSearch({ characters, excluded, onSelect, disabled }: Pr
           )}
           {noResults && (
             <li
-              role="option"
-              aria-selected={false}
-              aria-disabled="true"
+              role="presentation"
               className="px-4 py-2.5 text-xs text-muted font-body italic"
             >
               No characters found
