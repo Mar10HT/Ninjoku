@@ -43,7 +43,9 @@ function GridSummary() {
   try {
     const raw = localStorage.getItem(key);
     if (!raw) return null;
-    const { cells } = JSON.parse(raw) as { cells: { status: string }[][] };
+    const parsed: unknown = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || !Array.isArray((parsed as Record<string, unknown>).cells)) return null;
+    const { cells } = parsed as { cells: { status: string }[][] };
     return (
       <div className="grid grid-cols-3 gap-1.5">
         {cells.map((row, ri) =>
@@ -73,7 +75,9 @@ function PyramidSummary({ score }: { score: number }) {
   try {
     const raw = localStorage.getItem(key);
     if (!raw) return null;
-    const { cells } = JSON.parse(raw) as { cells: { status: string }[][] };
+    const parsed: unknown = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || !Array.isArray((parsed as Record<string, unknown>).cells)) return null;
+    const { cells } = parsed as { cells: { status: string }[][] };
     return (
       <div className="flex flex-col items-center gap-2">
         {cells.map((row, ri) => (
@@ -158,7 +162,9 @@ function isResultsState(s: unknown): s is ResultsState {
   return (
     typeof r.won === 'boolean' &&
     typeof r.guesses === 'number' &&
-    typeof r.mode === 'string'
+    typeof r.maxGuesses === 'number' &&
+    typeof r.mode === 'string' &&
+    (r.character === null || (typeof r.character === 'object' && r.character !== null))
   );
 }
 
