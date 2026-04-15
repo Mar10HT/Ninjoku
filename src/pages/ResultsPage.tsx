@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate, Navigate } from 'react-router-dom';
 import type { Character } from '../types/character';
 import { Navbar } from '../components/layout/Navbar';
+import { CharacterAvatar } from '../components/shared/CharacterAvatar';
 import { getTodayKey } from '../lib/seed';
 
 interface ResultsState {
@@ -101,6 +102,56 @@ function PyramidSummary({ score }: { score: number }) {
   }
 }
 
+/**
+ * Persists today's game result into per-mode stats in localStorage.
+ * Dedup key prevents double-counting if called more than once for the same mode+date.
+ */
+function saveGameStats(state: ResultsState): void {
+  const today = new Date();
+  const dateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+  const dedupKey = `narutodle_stats_counted_${state.mode}_${dateStr}`;
+  if (localStorage.getItem(dedupKey)) return;
+  localStorage.setItem(dedupKey, '1');
+  try {
+    const statsKey = `narutodle_stats_${state.mode}`;
+    const raw = localStorage.getItem(statsKey);
+    const prev = raw ? (JSON.parse(raw) as {
+      played?: number;
+      totalGuesses?: number;
+      totalScore?: number;
+      streak?: number;
+      maxStreak?: number;
+      lastWonDate?: string;
+    }) : {};
+    const played = (prev.played ?? 0) + 1;
+
+    // Streak: only tracked for Classic and Grid (modes with win/loss)
+    let streak = prev.streak ?? 0;
+    let maxStreak = prev.maxStreak ?? 0;
+    let lastWonDate = prev.lastWonDate;
+    if (state.mode !== 'pyramid' && state.won) {
+      const yesterday = new Date(today);
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yesterdayStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, '0')}-${String(yesterday.getDate()).padStart(2, '0')}`;
+      streak = lastWonDate === yesterdayStr ? streak + 1 : 1;
+      maxStreak = Math.max(maxStreak, streak);
+      lastWonDate = dateStr;
+    } else if (state.mode !== 'pyramid' && !state.won) {
+      streak = 0;
+    }
+
+    if (state.mode === 'pyramid' && state.score !== undefined) {
+      const totalScore = (prev.totalScore ?? 0) + state.score;
+      localStorage.setItem(statsKey, JSON.stringify({ played, totalScore }));
+    } else {
+      const totalGuesses = (prev.totalGuesses ?? 0) + state.guesses;
+      localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses, streak, maxStreak, lastWonDate }));
+    }
+  } catch {
+    // ignore storage errors
+  }
+}
+
 function isResultsState(s: unknown): s is ResultsState {
   if (!s || typeof s !== 'object') return false;
   const r = s as Record<string, unknown>;
@@ -121,55 +172,15 @@ export function ResultsPage() {
   const [copyFailed, setCopyFailed] = useState(false);
   useEffect(() => { document.title = 'Results — NARUTODLE'; }, []);
 
-  // Save stats once per game (dedup by mode+date to survive StrictMode double-invoke)
+  // Save stats once on mount — useRef prevents double-invoke in StrictMode,
+  // dedup key in saveGameStats acts as a secondary safeguard.
+  const didSaveStats = useRef(false);
   useEffect(() => {
-    if (!state) return;
-    const today = new Date();
-    const dateStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
-    const dedupKey = `narutodle_stats_counted_${state.mode}_${dateStr}`;
-    if (localStorage.getItem(dedupKey)) return;
-    localStorage.setItem(dedupKey, '1');
-    try {
-      const statsKey = `narutodle_stats_${state.mode}`;
-      const raw = localStorage.getItem(statsKey);
-      const prev = raw ? (JSON.parse(raw) as {
-        played?: number;
-        totalGuesses?: number;
-        totalScore?: number;
-        streak?: number;
-        maxStreak?: number;
-        lastWonDate?: string;
-      }) : {};
-      const played = (prev.played ?? 0) + 1;
-
-      // Streak: only tracked for Classic and Grid (modes with win/loss)
-      let streak = prev.streak ?? 0;
-      let maxStreak = prev.maxStreak ?? 0;
-      let lastWonDate = prev.lastWonDate;
-      if (state.mode !== 'pyramid' && state.won) {
-        const yesterday = new Date(today);
-        yesterday.setDate(yesterday.getDate() - 1);
-        const yesterdayStr = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
-        streak = lastWonDate === yesterdayStr ? streak + 1 : 1;
-        maxStreak = Math.max(maxStreak, streak);
-        lastWonDate = dateStr;
-      } else if (state.mode !== 'pyramid' && !state.won) {
-        streak = 0;
-      }
-
-      if (state.mode === 'pyramid' && state.score !== undefined) {
-        const totalScore = (prev.totalScore ?? 0) + state.score;
-        localStorage.setItem(statsKey, JSON.stringify({ played, totalScore }));
-      } else {
-        const totalGuesses = (prev.totalGuesses ?? 0) + state.guesses;
-        localStorage.setItem(statsKey, JSON.stringify({ played, totalGuesses, streak, maxStreak, lastWonDate }));
-      }
-    } catch {
-      // ignore
+    if (!didSaveStats.current && state) {
+      didSaveStats.current = true;
+      saveGameStats(state);
     }
-  // Intentional: run only on mount — dedup key prevents double-counting in StrictMode
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [state]);
 
   if (!state) return <Navigate to="/" replace />;
 
@@ -278,11 +289,10 @@ export function ResultsPage() {
             style={{ animationDelay: '220ms' }}
           >
             <p className="font-display text-xs tracking-widest text-muted uppercase">The answer was</p>
-            <img
+            <CharacterAvatar
               src={character.image}
               alt={character.name}
               className="w-20 h-20 rounded-full object-cover bg-border"
-              onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
             />
             <p className="font-display font-bold text-xl text-ink tracking-wide text-center">
               {character.name}

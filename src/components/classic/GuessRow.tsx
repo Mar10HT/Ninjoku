@@ -1,6 +1,7 @@
 import type { Character } from '../../types/character';
 import type { GuessFeedback } from '../../lib/feedback';
 import { FieldCell } from './FieldCell';
+import { CharacterAvatar } from '../shared/CharacterAvatar';
 
 interface Props {
   character: Character;
@@ -13,13 +14,10 @@ export function GuessRow({ character, feedback }: Props) {
       {/* Character cell — row header for screen readers */}
       <th scope="row" className="bg-surface border border-border px-3 py-2 min-w-[120px] animate-fade-in font-normal text-left">
         <div className="flex items-center gap-2">
-          <img
+          <CharacterAvatar
             src={character.image}
             alt={character.name}
-            loading="lazy"
-            decoding="async"
             className="w-9 h-9 rounded-full object-cover bg-border flex-shrink-0"
-            onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
           />
           <span className="font-body text-sm text-ink leading-tight">{character.name}</span>
         </div>

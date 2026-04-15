@@ -50,5 +50,7 @@ export function getDailyCharacter(chars: Character[]): Character {
   const cycleIndex = Math.floor(dayNum / chars.length);
   const posInCycle = dayNum % chars.length;
   const shuffled = seededShuffle(chars, cycleIndex + 1);
-  return shuffled[posInCycle];
+  const result = shuffled[posInCycle];
+  if (!result) throw new Error(`getDailyCharacter: index out of bounds (pos=${posInCycle}, len=${shuffled.length})`);
+  return result;
 }

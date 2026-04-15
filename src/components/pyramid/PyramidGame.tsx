@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { Character } from '../../types/character';
 import { getDailyPyramid, ROW_BONUSES } from '../../lib/pyramid-seed';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 import { getTodayKey } from '../../lib/seed';
 import { CharacterSearch } from '../shared/CharacterSearch';
+import { CharacterAvatar } from '../shared/CharacterAvatar';
 import { PyramidCell, type PyramidCellState } from './PyramidCell';
 import { RESULTS_NAVIGATE_DELAY_MS } from '../../lib/constants';
 import { characters } from '../../data/characters-filtered';
@@ -24,6 +25,10 @@ interface StoredPyramidState {
   finished: boolean;
 }
 
+const INITIAL_CELLS: CellData[][] = ROW_SIZES.map(size =>
+  Array(size).fill(null).map(() => ({ status: 'pending' as const })),
+);
+
 export function PyramidGame() {
   const navigate = useNavigate();
   const todayKey = getTodayKey();
@@ -36,26 +41,23 @@ export function PyramidGame() {
   // Pending guess: character selected but not yet confirmed (prevents accidental submissions)
   const [pendingGuess, setPendingGuess] = useState<Character | null>(null);
 
-  const initialCells: CellData[][] = ROW_SIZES.map(size =>
-    Array(size).fill(null).map(() => ({ status: 'pending' as const })),
-  );
-
-  const cells: CellData[][] = stored?.cells ?? initialCells;
+  const cells: CellData[][] = stored?.cells ?? INITIAL_CELLS;
   const totalScore = stored?.totalScore ?? 0;
   const finished = stored?.finished ?? false;
 
-  // Auto-navigate if already finished (immediate — no delay needed on reload)
+  // Redirect on mount if today's game was already finished — use ref to
+  // avoid stale closure issues and prevent double-fire in StrictMode.
+  const didRedirect = useRef(false);
   useEffect(() => {
-    if (finished) {
+    if (!didRedirect.current && finished) {
+      didRedirect.current = true;
       const won = cells.flat().some(c => c.status === 'correct');
       navigate('/results', {
         replace: true,
         state: { won, mode: 'pyramid', guesses: 10, maxGuesses: 10, character: null, score: totalScore },
       });
     }
-  // Intentional: run only on mount to redirect if today's pyramid was already finished
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [finished, cells, totalScore, navigate]);
 
   // Characters used (both correct and wrong — can't retry)
   const usedIds = cells.flat()
@@ -200,11 +202,10 @@ export function PyramidGame() {
       {!finished && activeCell && pendingGuess && (
         <div className="w-full max-w-md bg-surface border border-border rounded-lg p-4 flex flex-col gap-3 animate-slide-up-scale">
           <div className="flex items-center gap-3">
-            <img
+            <CharacterAvatar
               src={pendingGuess.image}
               alt={pendingGuess.name}
               className="w-10 h-10 rounded-full object-cover bg-border flex-shrink-0"
-              onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg'; }}
             />
             <div className="flex-1 min-w-0">
               <p className="font-body text-sm font-bold text-ink truncate">{pendingGuess.name}</p>

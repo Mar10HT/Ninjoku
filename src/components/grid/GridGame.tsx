@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { Character } from '../../types/character';
 import { getIntersection } from '../../lib/criteria';
@@ -22,6 +22,10 @@ interface StoredGridState {
   wrongTotal: number;
 }
 
+const INITIAL_CELLS: CellData[][] = Array(3).fill(null).map(() =>
+  Array(3).fill(null).map(() => ({ status: 'empty' as const })),
+);
+
 export function GridGame() {
   const navigate = useNavigate();
   const todayKey = getTodayKey();
@@ -34,26 +38,23 @@ export function GridGame() {
   const [activeCell, setActiveCell] = useState<[number, number] | null>(null);
   const [wrongFlash, setWrongFlash] = useState<[number, number] | null>(null);
 
-  const initialCells: CellData[][] = Array(3).fill(null).map(() =>
-    Array(3).fill(null).map(() => ({ status: 'empty' as const })),
-  );
-
-  const cells: CellData[][] = stored?.cells ?? initialCells;
+  const cells: CellData[][] = stored?.cells ?? INITIAL_CELLS;
   const gameState = stored?.gameState ?? 'playing';
   const wrongTotal = stored?.wrongTotal ?? 0;
 
-  // Auto-navigate if already finished (immediate — no delay needed on reload)
+  // Redirect on mount if today's game was already finished — use ref to
+  // avoid stale closure issues and prevent double-fire in StrictMode.
+  const didRedirect = useRef(false);
   useEffect(() => {
-    if (gameState === 'won' || gameState === 'lost') {
+    if (!didRedirect.current && (gameState === 'won' || gameState === 'lost')) {
+      didRedirect.current = true;
       const correct = cells.flat().filter(c => c.status === 'correct').length;
       navigate('/results', {
         replace: true,
         state: { won: gameState === 'won', mode: 'grid', guesses: correct, maxGuesses: 9, character: null },
       });
     }
-  // Intentional: run only on mount to redirect if today's game was already finished
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [gameState, cells, navigate]);
 
   const usedIds = cells.flat()
     .filter(c => c.status === 'correct' && c.character)
