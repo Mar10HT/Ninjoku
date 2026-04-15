@@ -176,7 +176,7 @@ export function GridGame() {
 
               return (
                 <GridCell
-                  key={ci}
+                  key={`${ri}-${ci}`}
                   state={state}
                   onClick={() => handleCellClick(ri, ci)}
                 />

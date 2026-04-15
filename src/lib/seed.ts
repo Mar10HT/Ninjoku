@@ -3,6 +3,11 @@ import { mulberry32 } from './prng';
 
 const LAUNCH_DATE = new Date('2025-01-01');
 
+// Intentional: both functions use local device time so the puzzle resets at
+// the user's local midnight. This means players in different time zones may
+// see different puzzles on the same calendar day — accepted tradeoff for a
+// portfolio project with no backend.
+
 export function getTodayKey(): string {
   const now = new Date();
   const y = now.getFullYear();

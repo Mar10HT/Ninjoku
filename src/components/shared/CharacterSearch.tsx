@@ -9,15 +9,16 @@ interface Props {
   disabled?: boolean;
 }
 
+// Normalize diacritics so "Choji" matches "Chōji", "Jugo" matches "Jūgo", etc.
+function normalize(s: string): string {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
 export function CharacterSearch({ characters, excluded, onSelect, disabled }: Props) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [focusedIndex, setFocusedIndex] = useState(-1);
   const containerRef = useRef<HTMLDivElement>(null);
-
-  // Normalize diacritics so "Choji" matches "Chōji", "Jugo" matches "Jūgo", etc.
-  const normalize = (s: string) =>
-    s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
   const allMatches = query.length < 1
     ? []

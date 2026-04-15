@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getDayNumber } from '../lib/seed';
 import { HowToPlayModal } from '../components/shared/HowToPlayModal';
@@ -54,7 +54,7 @@ export function Home() {
   const [showModal, setShowModal] = useState(false);
   useEffect(() => { document.title = 'NARUTODLE — Daily Ninja Puzzle'; }, []);
 
-  const modeStats = MODE_ROWS.map(m => ({ ...m, stats: getModeStats(m.key) }));
+  const modeStats = useMemo(() => MODE_ROWS.map(m => ({ ...m, stats: getModeStats(m.key) })), []);
   const anyPlayed = modeStats.some(m => m.stats.played > 0);
 
   return (

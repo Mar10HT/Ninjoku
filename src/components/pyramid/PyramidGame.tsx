@@ -172,7 +172,7 @@ export function PyramidGame() {
 
                   return (
                     <PyramidCell
-                      key={colIdx}
+                      key={`${rowIdx}-${colIdx}`}
                       state={state}
                       onClick={() => handleCellClick(rowIdx, colIdx)}
                     />
